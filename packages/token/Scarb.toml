@@ -25,7 +25,7 @@ fmt.workspace = true
 [dependencies]
 starknet.workspace = true
 revenantscholar_access = { path = "../access" }
-openzeppelin_account = { path = "../account" }
+revenantscholar_account = { path = "../account" }
 openzeppelin_introspection = { path = "../introspection" }
 openzeppelin_utils = { path = "../utils" }
 

@@ -112,7 +112,7 @@ Constructing an account contract requires integrating both {account-component} a
 ----
 #[starknet::contract(account)]
 mod MyAccount {
-    use openzeppelin_account::AccountComponent;
+    use revenantscholar_account::AccountComponent;
     use openzeppelin_introspection::src5::SRC5Component;
 
     component!(path: AccountComponent, storage: account, event: AccountEvent);
@@ -202,8 +202,8 @@ Here’s an example of a basic contract:
 ----
 #[starknet::contract(account)]
 mod MyEthAccount {
-    use openzeppelin_account::EthAccountComponent;
-    use openzeppelin_account::interface::EthPublicKey;
+    use revenantscholar_account::EthAccountComponent;
+    use revenantscholar_account::interface::EthPublicKey;
     use openzeppelin_introspection::src5::SRC5Component;
     use starknet::ClassHash;
 
@@ -303,7 +303,7 @@ First, let's take the example account we created before and deploy it:
 ```[,cairo]
 #[starknet::contract(account)]
 mod MyAccount {
-    use openzeppelin_account::AccountComponent;
+    use revenantscholar_account::AccountComponent;
     use openzeppelin_introspection::src5::SRC5Component;
 
     component!(path: AccountComponent, storage: account, event: AccountEvent);
@@ -386,8 +386,8 @@ First, let's take the example account we created before and deploy it:
 ```[,cairo]
 #[starknet::contract(account)]
 mod MyEthAccount {
-    use openzeppelin_account::EthAccountComponent;
-    use openzeppelin_account::interface::EthPublicKey;
+    use revenantscholar_account::EthAccountComponent;
+    use revenantscholar_account::interface::EthPublicKey;
     use openzeppelin_introspection::src5::SRC5Component;
 
     component!(path: EthAccountComponent, storage: eth_account, event: EthAccountEvent);

@@ -818,7 +818,7 @@ pub mod ERC721Component {
                     get_caller_address(), from, token_id, data
                 ) == interface::IERC721_RECEIVER_ID
         } else {
-            src5_dispatcher.supports_interface(openzeppelin_account::interface::ISRC6_ID)
+            src5_dispatcher.supports_interface(revenantscholar_account::interface::ISRC6_ID)
         }
     }
 }

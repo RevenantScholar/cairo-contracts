@@ -20,7 +20,7 @@ starknet.workspace = true
 snforge_std.workspace = true
 openzeppelin_upgrades = { path = "../upgrades" }
 revenantscholar_access = { path = "../access" }
-openzeppelin_account = { path = "../account" }
+revenantscholar_account = { path = "../account" }
 openzeppelin_finance = { path = "../finance" }
 openzeppelin_introspection = { path = "../introspection" }
 openzeppelin_security = { path = "../security" }

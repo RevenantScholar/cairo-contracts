@@ -15,7 +15,7 @@ pub mod ERC20Component {
     use core::num::traits::{Bounded, Zero};
     use crate::erc20::interface;
     use crate::erc20::snip12_utils::permit::Permit;
-    use openzeppelin_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
+    use revenantscholar_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
     use openzeppelin_utils::cryptography::interface::{INonces, ISNIP12Metadata};
     use openzeppelin_utils::cryptography::snip12::{
         StructHash, OffchainMessageHash, SNIP12Metadata, StarknetDomain

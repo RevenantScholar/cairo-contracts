@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Multisig component (#1193)
-- `is_valid_p256_signature` utility function to `openzeppelin_account::utils::signature` (#1189)
+- `is_valid_p256_signature` utility function to `revenantscholar_account::utils::signature` (#1189)
 - `Secp256r1KeyPair` type and helpers to `openzeppelin_testing::signing` (#1189)
 - `all_tokens_of_owner` function to `ERC721EnumerableComponent` fetching all owner's tokens in a single call (#1196)
 - Embeddable impls for ERC2981 component (#1173)
@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed (Breaking)
 
-- Refactor `openzeppelin_account::utils::secp256k1` module to `openzeppelin_account::utils::secp256_point` (#1189)
+- Refactor `revenantscholar_account::utils::secp256k1` module to `revenantscholar_account::utils::secp256_point` (#1189)
   - `Secp256k1PointStorePacking` replaced by a generic `Secp256PointStorePacking`
   - `Secp256k1PointPartialEq` replaced by a generic `Secp256PointPartialEq`
   - `DebugSecp256k1Point` replaced by a generic `DebugSecp256Point`
@@ -60,8 +60,8 @@ with new external functions (#1173)
   - Remove `unwrap_and_cast` module from `openzeppelin_utils`
   - Remove `revenantscholar_access::accesscontrol::dual_accesscontrol`
   - Remove `revenantscholar_access::ownable::dual_ownable`
-  - Remove `openzeppelin_account::dual_account`
-  - Remove `openzeppelin_account::dual_eth_account`
+  - Remove `revenantscholar_account::dual_account`
+  - Remove `revenantscholar_account::dual_eth_account`
   - Remove `revenantscholar_token::erc20::dual20`
   - Remove `revenantscholar_token::erc721::dual721`
   - Remove `revenantscholar_token::erc721::dual721_receiver`
@@ -132,7 +132,7 @@ with new external functions (#1173)
 - HashCall implementation (#996)
 - Separated package for each submodule (#1065)
   - `revenantscholar_access`
-  - `openzeppelin_account`
+  - `revenantscholar_account`
   - `openzeppelin_governance`
   - `openzeppelin_introspection`
   - `openzeppelin_presets`

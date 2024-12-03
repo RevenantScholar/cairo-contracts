@@ -7,8 +7,8 @@
 /// deploy, or call contracts, using Ethereum signing keys.
 #[starknet::contract(account)]
 pub(crate) mod EthAccountUpgradeable {
-    use openzeppelin_account::EthAccountComponent;
-    use openzeppelin_account::interface::EthPublicKey;
+    use revenantscholar_account::EthAccountComponent;
+    use revenantscholar_account::interface::EthPublicKey;
     use openzeppelin_introspection::src5::SRC5Component;
     use openzeppelin_upgrades::UpgradeableComponent;
     use openzeppelin_upgrades::interface::IUpgradeable;

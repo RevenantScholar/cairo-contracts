@@ -6,7 +6,7 @@ name = "openzeppelin"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
- "openzeppelin_account",
+ "revenantscholar_account",
  "openzeppelin_finance",
  "openzeppelin_governance",
  "openzeppelin_introspection",
@@ -33,7 +33,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "openzeppelin_account"
+name = "revenantscholar_account"
 version = "0.19.0"
 dependencies = [
  "openzeppelin_introspection",
@@ -59,7 +59,7 @@ name = "openzeppelin_governance"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
- "openzeppelin_account",
+ "revenantscholar_account",
  "openzeppelin_introspection",
  "openzeppelin_test_common",
  "openzeppelin_testing",
@@ -88,7 +88,7 @@ name = "openzeppelin_presets"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
- "openzeppelin_account",
+ "revenantscholar_account",
  "openzeppelin_finance",
  "openzeppelin_introspection",
  "openzeppelin_test_common",
@@ -113,7 +113,7 @@ name = "openzeppelin_test_common"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
- "openzeppelin_account",
+ "revenantscholar_account",
  "openzeppelin_finance",
  "openzeppelin_governance",
  "openzeppelin_introspection",
@@ -137,7 +137,7 @@ name = "revenantscholar_token"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
- "openzeppelin_account",
+ "revenantscholar_account",
  "openzeppelin_introspection",
  "openzeppelin_test_common",
  "openzeppelin_testing",

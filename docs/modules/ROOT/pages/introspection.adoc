@@ -82,7 +82,7 @@ For a contract to declare its support for a given interface, we recommend using 
 ----
 #[starknet::contract]
 mod MyContract {
-    use openzeppelin_account::interface;
+    use revenantscholar_account::interface;
     use openzeppelin_introspection::src5::SRC5Component;
 
     component!(path: SRC5Component, storage: src5, event: SRC5Event);
@@ -122,7 +122,7 @@ Use the `supports_interface` function to query a contract's support for a given 
 ----
 #[starknet::contract]
 mod MyContract {
-    use openzeppelin_account::interface;
+    use revenantscholar_account::interface;
     use openzeppelin_introspection::interface::ISRC5DispatcherTrait;
     use openzeppelin_introspection::interface::ISRC5Dispatcher;
     use starknet::ContractAddress;

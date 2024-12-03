@@ -29,7 +29,7 @@ pub mod VotesComponent {
     use core::num::traits::Zero;
     use crate::votes::delegation::Delegation;
     use crate::votes::interface::IVotes;
-    use openzeppelin_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
+    use revenantscholar_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
     use openzeppelin_introspection::src5::SRC5Component;
     use revenantscholar_token::erc20::ERC20Component;
     use revenantscholar_token::erc20::interface::IERC20;

@@ -267,7 +267,7 @@ impl StructHashImpl of StructHash<Message> {
 
 #[starknet::contract]
 mod CustomERC20 {
-    use openzeppelin_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
+    use revenantscholar_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
     use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use openzeppelin_utils::cryptography::nonces::NoncesComponent;
     use starknet::ContractAddress;

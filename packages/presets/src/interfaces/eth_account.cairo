@@ -1,4 +1,4 @@
-use openzeppelin_account::interface::EthPublicKey;
+use revenantscholar_account::interface::EthPublicKey;
 use starknet::ClassHash;
 use starknet::account::Call;
 

@@ -1,5 +1,5 @@
 pub use revenantscholar_access as access;
-pub use openzeppelin_account as account;
+pub use revenantscholar_account as account;
 pub use openzeppelin_finance as finance;
 pub use openzeppelin_governance as governance;
 pub use openzeppelin_introspection as introspection;

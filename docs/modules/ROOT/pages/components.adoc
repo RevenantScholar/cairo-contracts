@@ -202,7 +202,7 @@ Here's a full example of an account contract that embeds the `AccountMixinImpl`:
 ----
 #[starknet::contract]
 mod Account {
-    use openzeppelin_account::AccountComponent;
+    use revenantscholar_account::AccountComponent;
     use openzeppelin_introspection::src5::SRC5Component;
 
     component!(path: AccountComponent, storage: account, event: AccountEvent);
