@@ -2,7 +2,7 @@
 version = 1
 
 [[package]]
-name = "openzeppelin"
+name = "revenantscholar"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",

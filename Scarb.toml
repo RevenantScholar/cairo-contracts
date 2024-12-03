@@ -16,7 +16,7 @@ members = [
 ]
 
 [package]
-name = "openzeppelin"
+name = "revenantscholar"
 readme = "README.md"
 version.workspace = true
 keywords.workspace = true
