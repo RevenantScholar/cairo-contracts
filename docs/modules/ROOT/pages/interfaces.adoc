@@ -7,13 +7,13 @@ This section describes the interfaces OpenZeppelin Contracts for Cairo offer, an
 Interfaces can be found in the module tree under the `interface` submodule, such as `token::erc20::interface`. For example:
 
 ```cairo
-use openzeppelin_token::erc20::interface::IERC20;
+use revenantscholar_token::erc20::interface::IERC20;
 ```
 
 or
 
 ```cairo
-use openzeppelin_token::erc20::interface::ERC20ABI;
+use revenantscholar_token::erc20::interface::ERC20ABI;
 ```
 
 NOTE: For simplicity, we'll use ERC20 as example but the same concepts apply to other modules.
@@ -82,7 +82,7 @@ pub trait ERC20ABI<TState> {
 Traits annotated with `#[starknet::interface]` automatically generate a dispatcher that can be used to interact with contracts that implement the given interface. They can be imported by appending the `Dispatcher` and `DispatcherTrait` suffixes to the trait name, like this:
 
 ```cairo
-use openzeppelin_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
+use revenantscholar_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
 ```
 
 Other types of dispatchers are also auto-generated from the annotated trait. See the

@@ -15,7 +15,7 @@ dependencies = [
  "openzeppelin_security",
  "openzeppelin_test_common",
  "openzeppelin_testing",
- "openzeppelin_token",
+ "revenantscholar_token",
  "openzeppelin_upgrades",
  "openzeppelin_utils",
  "snforge_std",
@@ -50,7 +50,7 @@ dependencies = [
  "openzeppelin_access",
  "openzeppelin_test_common",
  "openzeppelin_testing",
- "openzeppelin_token",
+ "revenantscholar_token",
  "snforge_std",
 ]
 
@@ -63,7 +63,7 @@ dependencies = [
  "openzeppelin_introspection",
  "openzeppelin_test_common",
  "openzeppelin_testing",
- "openzeppelin_token",
+ "revenantscholar_token",
  "openzeppelin_utils",
  "snforge_std",
 ]
@@ -93,7 +93,7 @@ dependencies = [
  "openzeppelin_introspection",
  "openzeppelin_test_common",
  "openzeppelin_testing",
- "openzeppelin_token",
+ "revenantscholar_token",
  "openzeppelin_upgrades",
  "openzeppelin_utils",
  "snforge_std",
@@ -119,7 +119,7 @@ dependencies = [
  "openzeppelin_introspection",
  "openzeppelin_security",
  "openzeppelin_testing",
- "openzeppelin_token",
+ "revenantscholar_token",
  "openzeppelin_upgrades",
  "openzeppelin_utils",
  "snforge_std",
@@ -133,7 +133,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "openzeppelin_token"
+name = "revenantscholar_token"
 version = "0.19.0"
 dependencies = [
  "openzeppelin_access",

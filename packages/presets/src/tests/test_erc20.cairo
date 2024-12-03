@@ -13,7 +13,7 @@ use openzeppelin_testing::constants::{
     ZERO, OWNER, SPENDER, RECIPIENT, OTHER, NAME, SYMBOL, DECIMALS, SUPPLY, VALUE, CLASS_HASH_ZERO
 };
 use openzeppelin_testing::events::EventSpyExt;
-use openzeppelin_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
+use revenantscholar_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
 use openzeppelin_utils::serde::SerializedAppend;
 use snforge_std::{spy_events, EventSpy, start_cheat_caller_address};
 use starknet::ClassHash;

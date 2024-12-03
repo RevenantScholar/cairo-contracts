@@ -6,7 +6,7 @@ use openzeppelin_access::ownable::interface::{IOwnableDispatcher, IOwnableDispat
 use openzeppelin_test_common::mocks::vesting::LinearVestingMock;
 use openzeppelin_test_common::vesting::VestingSpyHelpers;
 use openzeppelin_testing::constants::{OWNER, OTHER};
-use openzeppelin_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
+use revenantscholar_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
 use snforge_std::{spy_events, start_cheat_caller_address, start_cheat_block_timestamp_global};
 
 //

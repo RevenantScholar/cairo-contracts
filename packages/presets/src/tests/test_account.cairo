@@ -18,7 +18,7 @@ use openzeppelin_testing::constants::{
     CLASS_HASH_ZERO
 };
 use openzeppelin_testing::signing::StarkKeyPair;
-use openzeppelin_token::erc20::interface::IERC20DispatcherTrait;
+use revenantscholar_token::erc20::interface::IERC20DispatcherTrait;
 use openzeppelin_utils::serde::SerializedAppend;
 use snforge_std::{
     start_cheat_signature_global, start_cheat_transaction_version_global,

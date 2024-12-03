@@ -233,7 +233,7 @@ Here's an example of how to structure a simple ERC20Votes contract:
 #[starknet::contract]
 mod ERC20VotesContract {
     use openzeppelin_governance::votes::VotesComponent;
-    use openzeppelin_token::erc20::ERC20Component;
+    use revenantscholar_token::erc20::ERC20Component;
     use openzeppelin_utils::cryptography::nonces::NoncesComponent;
     use openzeppelin_utils::cryptography::snip12::SNIP12Metadata;
     use starknet::ContractAddress;
@@ -318,7 +318,7 @@ And here's an example of how to structure a simple ERC721Votes contract:
 pub mod ERC721VotesContract {
     use openzeppelin_governance::votes::VotesComponent;
     use openzeppelin_introspection::src5::SRC5Component;
-    use openzeppelin_token::erc721::ERC721Component;
+    use revenantscholar_token::erc721::ERC721Component;
     use openzeppelin_utils::cryptography::nonces::NoncesComponent;
     use openzeppelin_utils::cryptography::snip12::SNIP12Metadata;
     use starknet::ContractAddress;

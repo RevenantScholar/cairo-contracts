@@ -26,7 +26,7 @@ openzeppelin_access = { path = "../access" }
 openzeppelin_account = { path = "../account" }
 openzeppelin_finance = { path = "../finance" }
 openzeppelin_introspection = { path = "../introspection" }
-openzeppelin_token = { path = "../token" }
+revenantscholar_token = { path = "../token" }
 openzeppelin_upgrades = { path = "../upgrades" }
 openzeppelin_utils = { path = "../utils" }
 

@@ -2,7 +2,7 @@
 pub mod ERC721VotesMock {
     use openzeppelin_governance::votes::VotesComponent;
     use openzeppelin_introspection::src5::SRC5Component;
-    use openzeppelin_token::erc721::ERC721Component;
+    use revenantscholar_token::erc721::ERC721Component;
     use openzeppelin_utils::cryptography::nonces::NoncesComponent;
     use openzeppelin_utils::cryptography::snip12::SNIP12Metadata;
     use starknet::ContractAddress;
@@ -88,7 +88,7 @@ pub mod ERC721VotesMock {
 #[starknet::contract]
 pub mod ERC20VotesMock {
     use openzeppelin_governance::votes::VotesComponent;
-    use openzeppelin_token::erc20::ERC20Component;
+    use revenantscholar_token::erc20::ERC20Component;
     use openzeppelin_utils::cryptography::nonces::NoncesComponent;
     use openzeppelin_utils::cryptography::snip12::SNIP12Metadata;
     use starknet::ContractAddress;

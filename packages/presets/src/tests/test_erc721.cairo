@@ -13,12 +13,12 @@ use openzeppelin_testing::constants::{
     BASE_URI
 };
 use openzeppelin_testing::events::EventSpyExt;
-use openzeppelin_token::erc721::ERC721Component::ERC721Impl;
-use openzeppelin_token::erc721::interface::{
+use revenantscholar_token::erc721::ERC721Component::ERC721Impl;
+use revenantscholar_token::erc721::interface::{
     IERC721CamelOnlySafeDispatcher, IERC721CamelOnlySafeDispatcherTrait
 };
-use openzeppelin_token::erc721::interface::{IERC721Dispatcher, IERC721DispatcherTrait};
-use openzeppelin_token::erc721::interface::{IERC721_ID, IERC721_METADATA_ID};
+use revenantscholar_token::erc721::interface::{IERC721Dispatcher, IERC721DispatcherTrait};
+use revenantscholar_token::erc721::interface::{IERC721_ID, IERC721_METADATA_ID};
 use openzeppelin_utils::serde::SerializedAppend;
 use snforge_std::{spy_events, EventSpy, start_cheat_caller_address};
 use starknet::{ContractAddress, ClassHash};

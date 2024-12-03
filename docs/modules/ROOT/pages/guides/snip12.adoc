@@ -26,7 +26,7 @@ Note that some declarations are omitted for brevity. The full example will be av
 ----
 #[starknet::contract]
 mod CustomERC20 {
-    use openzeppelin_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
+    use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use starknet::ContractAddress;
 
     component!(path: ERC20Component, storage: erc20, event: ERC20Event);
@@ -268,7 +268,7 @@ impl StructHashImpl of StructHash<Message> {
 #[starknet::contract]
 mod CustomERC20 {
     use openzeppelin_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
-    use openzeppelin_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
+    use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use openzeppelin_utils::cryptography::nonces::NoncesComponent;
     use starknet::ContractAddress;
 

@@ -3,7 +3,7 @@ const SUCCESS: felt252 = 'SUCCESS';
 #[starknet::contract]
 pub mod DualCaseERC721Mock {
     use openzeppelin_introspection::src5::SRC5Component;
-    use openzeppelin_token::erc721::{ERC721Component, ERC721HooksEmptyImpl};
+    use revenantscholar_token::erc721::{ERC721Component, ERC721HooksEmptyImpl};
     use starknet::ContractAddress;
 
     component!(path: ERC721Component, storage: erc721, event: ERC721Event);
@@ -59,7 +59,7 @@ pub mod DualCaseERC721Mock {
 #[starknet::contract]
 pub mod SnakeERC721Mock {
     use openzeppelin_introspection::src5::SRC5Component;
-    use openzeppelin_token::erc721::{ERC721Component, ERC721HooksEmptyImpl};
+    use revenantscholar_token::erc721::{ERC721Component, ERC721HooksEmptyImpl};
     use starknet::ContractAddress;
 
     component!(path: ERC721Component, storage: erc721, event: ERC721Event);
@@ -112,7 +112,7 @@ pub mod SnakeERC721Mock {
 #[starknet::contract]
 pub mod SnakeERC721MockWithHooks {
     use openzeppelin_introspection::src5::SRC5Component;
-    use openzeppelin_token::erc721::ERC721Component;
+    use revenantscholar_token::erc721::ERC721Component;
     use starknet::ContractAddress;
 
     component!(path: ERC721Component, storage: erc721, event: ERC721Event);
@@ -203,7 +203,7 @@ pub mod SnakeERC721MockWithHooks {
 #[starknet::contract]
 pub mod DualCaseERC721ReceiverMock {
     use openzeppelin_introspection::src5::SRC5Component;
-    use openzeppelin_token::erc721::ERC721ReceiverComponent;
+    use revenantscholar_token::erc721::ERC721ReceiverComponent;
     use starknet::ContractAddress;
 
     component!(path: ERC721ReceiverComponent, storage: erc721_receiver, event: ERC721ReceiverEvent);
@@ -273,9 +273,9 @@ pub mod DualCaseERC721ReceiverMock {
 #[starknet::contract]
 pub mod ERC721EnumerableMock {
     use openzeppelin_introspection::src5::SRC5Component;
-    use openzeppelin_token::erc721::ERC721Component;
-    use openzeppelin_token::erc721::extensions::ERC721EnumerableComponent::InternalTrait;
-    use openzeppelin_token::erc721::extensions::ERC721EnumerableComponent;
+    use revenantscholar_token::erc721::ERC721Component;
+    use revenantscholar_token::erc721::extensions::ERC721EnumerableComponent::InternalTrait;
+    use revenantscholar_token::erc721::extensions::ERC721EnumerableComponent;
     use starknet::ContractAddress;
 
     component!(path: ERC721Component, storage: erc721, event: ERC721Event);

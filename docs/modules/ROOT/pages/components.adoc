@@ -302,7 +302,7 @@ Here's an example of how to use the Immutable Component Config pattern with the 
 #[starknet::contract]
 mod MyContract {
     use openzeppelin_introspection::src5::SRC5Component;
-    use openzeppelin_token::common::erc2981::ERC2981Component;
+    use revenantscholar_token::common::erc2981::ERC2981Component;
     use starknet::contract_address_const;
 
     component!(path: ERC2981Component, storage: erc2981, event: ERC2981Event);
@@ -361,7 +361,7 @@ In the following example, the `DefaultConfig` trait is used to define the `FEE_D
 mod MyContract {
     use openzeppelin_introspection::src5::SRC5Component;
     // Bring the DefaultConfig trait into scope
-    use openzeppelin_token::common::erc2981::{ERC2981Component, DefaultConfig};
+    use revenantscholar_token::common::erc2981::{ERC2981Component, DefaultConfig};
     use starknet::contract_address_const;
 
     component!(path: ERC2981Component, storage: erc2981, event: ERC2981Event);
@@ -483,7 +483,7 @@ The following snippet leverages the `before_update` hook to include this behavio
 mod MyToken {
     use openzeppelin_security::pausable::PausableComponent::InternalTrait;
     use openzeppelin_security::pausable::PausableComponent;
-    use openzeppelin_token::erc20::ERC20Component;
+    use revenantscholar_token::erc20::ERC20Component;
     use starknet::ContractAddress;
 
     component!(path: ERC20Component, storage: erc20, event: ERC20Event);
@@ -535,8 +535,8 @@ The using contract just needs to bring the implementation into scope like this:
 ----
 #[starknet::contract]
 mod MyToken {
-    use openzeppelin_token::erc20::ERC20Component;
-    use openzeppelin_token::erc20::ERC20HooksEmptyImpl;
+    use revenantscholar_token::erc20::ERC20Component;
+    use revenantscholar_token::erc20::ERC20HooksEmptyImpl;
 
     (...)
 }
@@ -559,9 +559,9 @@ Here's the setup:
 #[starknet::contract]
 mod ERC20Pausable {
     use openzeppelin_security::pausable::PausableComponent;
-    use openzeppelin_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
+    use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     // Import the ERC20 interfaces to create custom implementations
-    use openzeppelin_token::erc20::interface::{IERC20, IERC20CamelOnly};
+    use revenantscholar_token::erc20::interface::{IERC20, IERC20CamelOnly};
     use starknet::ContractAddress;
 
     component!(path: PausableComponent, storage: pausable, event: PausableEvent);

@@ -50,7 +50,7 @@ The previous example would import the entire library. We can also add each packa
 
 ```toml
 [dependencies]
-openzeppelin_token = "0.19.0"
+revenantscholar_token = "0.19.0"
 ```
 
 Build the project to download it:
@@ -72,7 +72,7 @@ For example, this is how to write an ERC20-compliant contract:
 ```cairo
 #[starknet::contract]
 mod MyToken {
-    use openzeppelin_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
+    use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use starknet::ContractAddress;
 
     component!(path: ERC20Component, storage: erc20, event: ERC20Event);

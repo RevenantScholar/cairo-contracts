@@ -54,7 +54,7 @@ openzeppelin_introspection = { path = "packages/introspection" }
 openzeppelin_merkle_tree = { path = "packages/merkle_tree" }
 openzeppelin_presets = { path = "packages/presets" }
 openzeppelin_security = { path = "packages/security" }
-openzeppelin_token = { path = "packages/token" }
+revenantscholar_token = { path = "packages/token" }
 openzeppelin_upgrades = { path = "packages/upgrades" }
 openzeppelin_utils = { path = "packages/utils" }
 

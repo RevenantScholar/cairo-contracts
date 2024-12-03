@@ -62,11 +62,11 @@ with new external functions (#1173)
   - Remove `openzeppelin_access::ownable::dual_ownable`
   - Remove `openzeppelin_account::dual_account`
   - Remove `openzeppelin_account::dual_eth_account`
-  - Remove `openzeppelin_token::erc20::dual20`
-  - Remove `openzeppelin_token::erc721::dual721`
-  - Remove `openzeppelin_token::erc721::dual721_receiver`
-  - Remove `openzeppelin_token::erc1155::dual1155`
-  - Remove `openzeppelin_token::erc1155::dual1155_receiver`
+  - Remove `revenantscholar_token::erc20::dual20`
+  - Remove `revenantscholar_token::erc721::dual721`
+  - Remove `revenantscholar_token::erc721::dual721_receiver`
+  - Remove `revenantscholar_token::erc1155::dual1155`
+  - Remove `revenantscholar_token::erc1155::dual1155_receiver`
 - `SRC9Component` now uses `ISRC6Dispatcher` instead of `DualCaseAccount` (#1163)
 - `ERC20VotesComponent` now uses `ISRC6Dispatcher` instead of `DualCaseAccount` (#1163)
 - `ERC721Component` now uses `IERC721ReceiverDispatcher` instead of `DualCaseERC721Receiver` (#1163)
@@ -137,7 +137,7 @@ with new external functions (#1173)
   - `openzeppelin_introspection`
   - `openzeppelin_presets`
   - `openzeppelin_security`
-  - `openzeppelin_token`
+  - `revenantscholar_token`
   - `openzeppelin_upgrades`
   - `openzeppelin_utils`
 - Separated packages intended as [dev-dependencies] (#1084)

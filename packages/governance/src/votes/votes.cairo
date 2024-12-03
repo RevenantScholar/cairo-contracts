@@ -31,10 +31,10 @@ pub mod VotesComponent {
     use crate::votes::interface::IVotes;
     use openzeppelin_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
     use openzeppelin_introspection::src5::SRC5Component;
-    use openzeppelin_token::erc20::ERC20Component;
-    use openzeppelin_token::erc20::interface::IERC20;
-    use openzeppelin_token::erc721::ERC721Component;
-    use openzeppelin_token::erc721::interface::IERC721;
+    use revenantscholar_token::erc20::ERC20Component;
+    use revenantscholar_token::erc20::interface::IERC20;
+    use revenantscholar_token::erc721::ERC721Component;
+    use revenantscholar_token::erc721::interface::IERC721;
     use openzeppelin_utils::cryptography::snip12::{OffchainMessageHash, SNIP12Metadata};
     use openzeppelin_utils::nonces::NoncesComponent::InternalTrait as NoncesInternalTrait;
     use openzeppelin_utils::nonces::NoncesComponent;

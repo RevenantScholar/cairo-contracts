@@ -9,13 +9,13 @@ use openzeppelin_test_common::mocks::votes::{ERC721VotesMock, ERC20VotesMock};
 use openzeppelin_testing as utils;
 use openzeppelin_testing::constants::{SUPPLY, ZERO, DELEGATOR, DELEGATEE, OTHER, RECIPIENT};
 use openzeppelin_testing::events::EventSpyExt;
-use openzeppelin_token::erc20::ERC20Component::InternalTrait;
-use openzeppelin_token::erc20::interface::IERC20;
-use openzeppelin_token::erc721::ERC721Component::{
+use revenantscholar_token::erc20::ERC20Component::InternalTrait;
+use revenantscholar_token::erc20::interface::IERC20;
+use revenantscholar_token::erc721::ERC721Component::{
     ERC721MetadataImpl, InternalImpl as ERC721InternalImpl,
 };
-use openzeppelin_token::erc721::ERC721Component::{ERC721Impl, ERC721CamelOnlyImpl};
-use openzeppelin_token::erc721::interface::IERC721;
+use revenantscholar_token::erc721::ERC721Component::{ERC721Impl, ERC721CamelOnlyImpl};
+use revenantscholar_token::erc721::interface::IERC721;
 use openzeppelin_utils::cryptography::snip12::OffchainMessageHash;
 use openzeppelin_utils::structs::checkpoint::TraceTrait;
 use snforge_std::signature::stark_curve::{StarkCurveKeyPairImpl, StarkCurveSignerImpl};

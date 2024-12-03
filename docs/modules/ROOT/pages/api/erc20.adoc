@@ -23,7 +23,7 @@ TIP: For an overview of ERC20, read our {erc20-guide}.
 
 [.hljs-theme-dark]
 ```cairo
-use openzeppelin_token::erc20::interface::IERC20;
+use revenantscholar_token::erc20::interface::IERC20;
 ```
 
 Interface of the IERC20 standard as defined in {eip20}.
@@ -121,7 +121,7 @@ Emitted when the allowance of a `spender` for an `owner` is set.
 
 [.hljs-theme-dark]
 ```cairo
-use openzeppelin_token::erc20::interface::IERC20Metadata;
+use revenantscholar_token::erc20::interface::IERC20Metadata;
 ```
 
 Interface for the optional metadata functions in {eip20}.
@@ -169,7 +169,7 @@ NOTE: This information is only used for _display_ purposes: it in no way affects
 
 [.hljs-theme-dark]
 ```cairo
-use openzeppelin_token::erc20::ERC20Component;
+use revenantscholar_token::erc20::ERC20Component;
 ```
 ERC20 component extending <<IERC20,IERC20>> and <<IERC20Metadata,IERC20Metadata>>.
 
@@ -255,7 +255,7 @@ Hooks are functions which implementations can extend the functionality of the co
 using ERC20Component is expected to provide an implementation of the ERC20HooksTrait. For basic token contracts, an
 empty implementation with no logic must be provided.
 
-TIP: You can use `openzeppelin_token::erc20::ERC20HooksEmptyImpl` which is already available as part of the library
+TIP: You can use `revenantscholar_token::erc20::ERC20HooksEmptyImpl` which is already available as part of the library
 for this purpose.
 
 [.contract-item]
@@ -520,7 +520,7 @@ See <<IERC20-Approval,IERC20::Approval>>.
 
 [.hljs-theme-dark]
 ```cairo
-use openzeppelin_token::erc20::interface::IERC20Permit;
+use revenantscholar_token::erc20::interface::IERC20Permit;
 ```
 
 Interface of the ERC20Permit standard to support gasless token approvals as defined in {eip-2612}. 
