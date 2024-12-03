@@ -25,7 +25,7 @@ The contract should first import the component and declare it with the `componen
 #[starknet::contract]
 mod MyContract {
     // Import the component
-    use openzeppelin_security::InitializableComponent;
+    use revenantscholar_security::InitializableComponent;
 
     // Declare the component
     component!(path: InitializableComponent, storage: initializable, event: InitializableEvent);
@@ -40,7 +40,7 @@ Note that even if the component doesn't define any events, the compiler will sti
 ----
 #[starknet::contract]
 mod MyContract {
-    use openzeppelin_security::InitializableComponent;
+    use revenantscholar_security::InitializableComponent;
 
     component!(path: InitializableComponent, storage: initializable, event: InitializableEvent);
 
@@ -79,7 +79,7 @@ Integrating an implementation looks like this:
 [,cairo]
 ----
 mod MyContract {
-    use openzeppelin_security::InitializableComponent;
+    use revenantscholar_security::InitializableComponent;
 
     component!(path: InitializableComponent, storage: initializable, event: InitializableEvent);
 
@@ -99,7 +99,7 @@ A function on the contract level can expose it like this:
 ----
 #[starknet::contract]
 mod MyContract {
-    use openzeppelin_security::InitializableComponent;
+    use revenantscholar_security::InitializableComponent;
 
     component!(path: InitializableComponent, storage: initializable, event: InitializableEvent);
 
@@ -481,8 +481,8 @@ The following snippet leverages the `before_update` hook to include this behavio
 ----
 #[starknet::contract]
 mod MyToken {
-    use openzeppelin_security::pausable::PausableComponent::InternalTrait;
-    use openzeppelin_security::pausable::PausableComponent;
+    use revenantscholar_security::pausable::PausableComponent::InternalTrait;
+    use revenantscholar_security::pausable::PausableComponent;
     use revenantscholar_token::erc20::ERC20Component;
     use starknet::ContractAddress;
 
@@ -558,7 +558,7 @@ Here's the setup:
 ----
 #[starknet::contract]
 mod ERC20Pausable {
-    use openzeppelin_security::pausable::PausableComponent;
+    use revenantscholar_security::pausable::PausableComponent;
     use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     // Import the ERC20 interfaces to create custom implementations
     use revenantscholar_token::erc20::interface::{IERC20, IERC20CamelOnly};
@@ -662,7 +662,7 @@ To do so, use the same syntax as calling an implementation method except replace
 ----
 #[starknet::contract]
 mod MyContract {
-    use openzeppelin_security::InitializableComponent;
+    use revenantscholar_security::InitializableComponent;
 
     component!(path: InitializableComponent, storage: initializable, event: InitializableEvent);
 

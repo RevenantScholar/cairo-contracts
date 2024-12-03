@@ -3,16 +3,16 @@ use crate::ERC721Upgradeable::InternalImpl;
 use crate::ERC721Upgradeable;
 use crate::interfaces::{ERC721UpgradeableABIDispatcher, ERC721UpgradeableABIDispatcherTrait};
 use revenantscholar_introspection::interface::ISRC5_ID;
-use openzeppelin_test_common::erc721::ERC721SpyHelpers;
-use openzeppelin_test_common::ownable::OwnableSpyHelpers;
-use openzeppelin_test_common::upgrades::UpgradeableSpyHelpers;
-use openzeppelin_testing as utils;
-use openzeppelin_testing::common::IntoBase16String;
-use openzeppelin_testing::constants::{
+use revenantscholar_test_common::erc721::ERC721SpyHelpers;
+use revenantscholar_test_common::ownable::OwnableSpyHelpers;
+use revenantscholar_test_common::upgrades::UpgradeableSpyHelpers;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::common::IntoBase16String;
+use revenantscholar_testing::constants::{
     ZERO, DATA, OWNER, SPENDER, RECIPIENT, OTHER, OPERATOR, CLASS_HASH_ZERO, PUBKEY, NAME, SYMBOL,
     BASE_URI
 };
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing::events::EventSpyExt;
 use revenantscholar_token::erc721::ERC721Component::ERC721Impl;
 use revenantscholar_token::erc721::interface::{
     IERC721CamelOnlySafeDispatcher, IERC721CamelOnlySafeDispatcherTrait

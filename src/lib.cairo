@@ -1,11 +1,11 @@
 pub use revenantscholar_access as access;
 pub use revenantscholar_account as account;
-pub use openzeppelin_finance as finance;
-pub use openzeppelin_governance as governance;
+pub use revenantscholar_finance as finance;
+pub use revenantscholar_governance as governance;
 pub use revenantscholar_introspection as introspection;
-pub use openzeppelin_merkle_tree as merkle_tree;
-pub use openzeppelin_presets as presets;
-pub use openzeppelin_security as security;
+pub use revenantscholar_merkle_tree as merkle_tree;
+pub use revenantscholar_presets as presets;
+pub use revenantscholar_security as security;
 pub use revenantscholar_token as token;
-pub use openzeppelin_upgrades as upgrades;
+pub use revenantscholar_upgrades as upgrades;
 pub use revenantscholar_utils as utils;

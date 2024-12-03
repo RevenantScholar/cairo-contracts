@@ -4,7 +4,7 @@
 #[starknet::contract]
 pub mod VestingWallet {
     use revenantscholar_access::ownable::OwnableComponent;
-    use openzeppelin_finance::vesting::{VestingComponent, LinearVestingSchedule};
+    use revenantscholar_finance::vesting::{VestingComponent, LinearVestingSchedule};
     use starknet::ContractAddress;
 
     component!(path: OwnableComponent, storage: ownable, event: OwnableEvent);

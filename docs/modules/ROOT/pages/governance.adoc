@@ -109,7 +109,7 @@ Here's an example of a simple timelock contract:
 #[starknet::contract]
 mod TimelockControllerContract {
     use revenantscholar_access::accesscontrol::AccessControlComponent;
-    use openzeppelin_governance::timelock::TimelockControllerComponent;
+    use revenantscholar_governance::timelock::TimelockControllerComponent;
     use revenantscholar_introspection::src5::SRC5Component;
     use starknet::ContractAddress;
 
@@ -232,7 +232,7 @@ Here's an example of how to structure a simple ERC20Votes contract:
 ----
 #[starknet::contract]
 mod ERC20VotesContract {
-    use openzeppelin_governance::votes::VotesComponent;
+    use revenantscholar_governance::votes::VotesComponent;
     use revenantscholar_token::erc20::ERC20Component;
     use revenantscholar_utils::cryptography::nonces::NoncesComponent;
     use revenantscholar_utils::cryptography::snip12::SNIP12Metadata;
@@ -316,7 +316,7 @@ And here's an example of how to structure a simple ERC721Votes contract:
 ----
 #[starknet::contract]
 pub mod ERC721VotesContract {
-    use openzeppelin_governance::votes::VotesComponent;
+    use revenantscholar_governance::votes::VotesComponent;
     use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::ERC721Component;
     use revenantscholar_utils::cryptography::nonces::NoncesComponent;

@@ -1,7 +1,7 @@
 #[starknet::contract]
 pub mod TimelockControllerMock {
     use revenantscholar_access::accesscontrol::AccessControlComponent;
-    use openzeppelin_governance::timelock::TimelockControllerComponent;
+    use revenantscholar_governance::timelock::TimelockControllerComponent;
     use revenantscholar_introspection::src5::SRC5Component;
     use starknet::ContractAddress;
 
@@ -89,7 +89,7 @@ pub trait ITimelockAttacker<TState> {
 
 #[starknet::contract]
 pub mod TimelockAttackerMock {
-    use openzeppelin_governance::timelock::interface::{
+    use revenantscholar_governance::timelock::interface::{
         ITimelockDispatcher, ITimelockDispatcherTrait
     };
     use starknet::account::Call;

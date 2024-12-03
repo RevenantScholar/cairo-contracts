@@ -17,13 +17,13 @@ This module provides:
 
 - `{verify_multi_proof}` - can prove multiple values are part of a Merkle tree.
 
-NOTE: `openzeppelin_merkle_tree` doesn't have dependencies outside of `corelib`, and can be used in projects that are not Starknet-related.
+NOTE: `revenantscholar_merkle_tree` doesn't have dependencies outside of `corelib`, and can be used in projects that are not Starknet-related.
 
 [TIP]
 ====
 To use it as a standalone package, you can add it in your `Scarb.toml` as follows:
 
-`openzeppelin_merkle_tree = "0.19.0"`
+`revenantscholar_merkle_tree = "0.19.0"`
 ====
 
 == Modules
@@ -33,7 +33,7 @@ To use it as a standalone package, you can add it in your `Scarb.toml` as follow
 === `++merkle_proof++` link:https://github.com/OpenZeppelin/cairo-contracts/blob/release-v0.19.0/packages/merkle_tree/src/merkle_proof.cairo[{github-icon},role=heading-link]
 
 ```cairo
-use openzeppelin_merkle_tree::merkle_proof;
+use revenantscholar_merkle_tree::merkle_proof;
 ```
 
 These functions deal with verification of Merkle Tree proofs.
@@ -147,7 +147,7 @@ NOTE: This function expects a `CommutativeHasher` implementation. See xref:#hash
 === `++hashes++` link:https://github.com/OpenZeppelin/cairo-contracts/blob/release-v0.19.0/packages/merkle_tree/src/hashes.cairo[{github-icon},role=heading-link]
 
 ```cairo
-use openzeppelin_merkle_tree::hashes;
+use revenantscholar_merkle_tree::hashes;
 ```
 
 :pedersen-hasher: xref:#hashes-PedersenCHasher[PedersenCHasher]

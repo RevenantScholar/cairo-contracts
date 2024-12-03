@@ -4,8 +4,8 @@ use crate::erc1155::ERC1155ReceiverComponent::{
 use crate::erc1155::interface::IERC1155_RECEIVER_ID;
 use revenantscholar_introspection::interface::ISRC5_ID;
 use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
-use openzeppelin_test_common::mocks::erc1155::DualCaseERC1155ReceiverMock;
-use openzeppelin_testing::constants::{OWNER, OPERATOR, TOKEN_ID, TOKEN_VALUE, EMPTY_DATA};
+use revenantscholar_test_common::mocks::erc1155::DualCaseERC1155ReceiverMock;
+use revenantscholar_testing::constants::{OWNER, OPERATOR, TOKEN_ID, TOKEN_VALUE, EMPTY_DATA};
 
 fn STATE() -> DualCaseERC1155ReceiverMock::ContractState {
     DualCaseERC1155ReceiverMock::contract_state_for_testing()

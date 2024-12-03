@@ -49,7 +49,7 @@ is calculated as being directly proportional to the time elapsed since the start
 #[starknet::contract]
 mod LinearVestingWallet {
     use revenantscholar_access::ownable::OwnableComponent;
-    use openzeppelin_finance::vesting::{VestingComponent, LinearVestingSchedule};
+    use revenantscholar_finance::vesting::{VestingComponent, LinearVestingSchedule};
     use starknet::ContractAddress;
 
     component!(path: OwnableComponent, storage: ownable, event: OwnableEvent);
@@ -110,8 +110,8 @@ are vested in a number of steps.
 #[starknet::contract]
 mod StepsVestingWallet {
     use revenantscholar_access::ownable::OwnableComponent;
-    use openzeppelin_finance::vesting::VestingComponent::VestingScheduleTrait;
-    use openzeppelin_finance::vesting::VestingComponent;
+    use revenantscholar_finance::vesting::VestingComponent::VestingScheduleTrait;
+    use revenantscholar_finance::vesting::VestingComponent;
     use starknet::ContractAddress;
     use starknet::storage::{StoragePointerReadAccess, StoragePointerWriteAccess};
 

@@ -1,7 +1,7 @@
 use crate::extensions::src9::interface::OutsideExecution;
 use crate::extensions::src9::snip12_utils::{CallStructHash, OutsideExecutionStructHash};
 use crate::extensions::src9::snip12_utils::{OUTSIDE_EXECUTION_TYPE_HASH, CALL_TYPE_HASH};
-use openzeppelin_testing::constants::{RECIPIENT, OWNER};
+use revenantscholar_testing::constants::{RECIPIENT, OWNER};
 use snforge_std::start_cheat_chain_id_global;
 use starknet::account::Call;
 

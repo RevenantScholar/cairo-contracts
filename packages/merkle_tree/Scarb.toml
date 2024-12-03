@@ -1,5 +1,5 @@
 [package]
-name = "openzeppelin_merkle_tree"
+name = "revenantscholar_merkle_tree"
 readme = "README.md"
 keywords = [
     "openzeppelin",

@@ -6,18 +6,18 @@ use crate::interface::{ISRC6, ISRC6_ID};
 use crate::utils::secp256_point::{DebugSecp256Point, Secp256PointPartialEq};
 use crate::utils::signature::Secp256Signature;
 use revenantscholar_introspection::interface::{ISRC5, ISRC5_ID};
-use openzeppelin_test_common::eth_account::EthAccountSpyHelpers;
-use openzeppelin_test_common::eth_account::{
+use revenantscholar_test_common::eth_account::EthAccountSpyHelpers;
+use revenantscholar_test_common::eth_account::{
     SIGNED_TX_DATA, SignedTransactionData, get_accept_ownership_signature
 };
-use openzeppelin_test_common::mocks::account::DualCaseEthAccountMock;
-use openzeppelin_test_common::mocks::simple::{ISimpleMockDispatcher, ISimpleMockDispatcherTrait};
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::secp256k1::{KEY_PAIR, KEY_PAIR_2};
-use openzeppelin_testing::constants::{
+use revenantscholar_test_common::mocks::account::DualCaseEthAccountMock;
+use revenantscholar_test_common::mocks::simple::{ISimpleMockDispatcher, ISimpleMockDispatcherTrait};
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::secp256k1::{KEY_PAIR, KEY_PAIR_2};
+use revenantscholar_testing::constants::{
     SALT, ZERO, OTHER, CALLER, QUERY_VERSION, MIN_TRANSACTION_VERSION
 };
-use openzeppelin_testing::signing::Secp256k1KeyPair;
+use revenantscholar_testing::signing::Secp256k1KeyPair;
 use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{
     start_cheat_signature_global, start_cheat_transaction_version_global,

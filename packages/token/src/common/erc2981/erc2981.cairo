@@ -423,7 +423,7 @@ pub impl DefaultConfig of ERC2981Component::ImmutableConfig {
 
 #[cfg(test)]
 mod tests {
-    use openzeppelin_test_common::mocks::erc2981::ERC2981Mock;
+    use revenantscholar_test_common::mocks::erc2981::ERC2981Mock;
     use starknet::contract_address_const;
     use super::ERC2981Component::InternalImpl;
     use super::ERC2981Component;

@@ -1,18 +1,18 @@
 use core::num::traits::Zero;
 use crate::interfaces::{ERC1155UpgradeableABIDispatcher, ERC1155UpgradeableABIDispatcherTrait};
-use openzeppelin_test_common::erc1155::ERC1155SpyHelpers;
-use openzeppelin_test_common::erc1155::{
+use revenantscholar_test_common::erc1155::ERC1155SpyHelpers;
+use revenantscholar_test_common::erc1155::{
     setup_account, setup_receiver, deploy_another_account_at, setup_src5
 };
-use openzeppelin_test_common::erc1155::{get_ids_and_values, get_ids_and_split_values};
-use openzeppelin_test_common::ownable::OwnableSpyHelpers;
-use openzeppelin_test_common::upgrades::UpgradeableSpyHelpers;
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::{
+use revenantscholar_test_common::erc1155::{get_ids_and_values, get_ids_and_split_values};
+use revenantscholar_test_common::ownable::OwnableSpyHelpers;
+use revenantscholar_test_common::upgrades::UpgradeableSpyHelpers;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::{
     EMPTY_DATA, ZERO, OWNER, RECIPIENT, CLASS_HASH_ZERO, OPERATOR, OTHER, TOKEN_ID, TOKEN_ID_2,
     TOKEN_VALUE, TOKEN_VALUE_2
 };
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing::events::EventSpyExt;
 use revenantscholar_token::erc1155::interface::{
     IERC1155CamelSafeDispatcher, IERC1155CamelSafeDispatcherTrait
 };

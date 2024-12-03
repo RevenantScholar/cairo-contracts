@@ -1,6 +1,6 @@
 #[starknet::contract]
 pub mod MultisigWalletMock {
-    use openzeppelin_governance::multisig::MultisigComponent;
+    use revenantscholar_governance::multisig::MultisigComponent;
     use starknet::ContractAddress;
 
     component!(path: MultisigComponent, storage: multisig, event: MultisigEvent);

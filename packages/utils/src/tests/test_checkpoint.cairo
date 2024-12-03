@@ -1,6 +1,6 @@
 use core::num::traits::Bounded;
 use crate::structs::checkpoint::Checkpoint;
-use openzeppelin_test_common::mocks::checkpoint::{IMockTrace, MockTrace};
+use revenantscholar_test_common::mocks::checkpoint::{IMockTrace, MockTrace};
 use starknet::storage_access::StorePacking;
 
 const _2_POW_184: felt252 = 0x10000000000000000000000000000000000000000000000;

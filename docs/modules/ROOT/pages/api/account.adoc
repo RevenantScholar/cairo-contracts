@@ -701,7 +701,7 @@ Initializes the account by registering the `ISRC9_V2` interface Id.
 === `++AccountUpgradeable++` link:https://github.com/OpenZeppelin/cairo-contracts/blob/release-v0.19.0/packages/presets/src/account.cairo[{github-icon},role=heading-link]
 
 ```cairo
-use openzeppelin_presets::AccountUpgradeable;
+use revenantscholar_presets::AccountUpgradeable;
 ```
 
 Upgradeable account contract leveraging xref:#AccountComponent[AccountComponent].
@@ -762,7 +762,7 @@ Requirements:
 === `++EthAccountUpgradeable++` link:https://github.com/OpenZeppelin/cairo-contracts/blob/release-v0.19.0/packages/presets/src/eth_account.cairo[{github-icon},role=heading-link]
 
 ```cairo
-use openzeppelin_presets::EthAccountUpgradeable;
+use revenantscholar_presets::EthAccountUpgradeable;
 ```
 
 Upgradeable account contract leveraging xref:#EthAccountComponent[EthAccountComponent].

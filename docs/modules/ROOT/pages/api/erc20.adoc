@@ -563,7 +563,7 @@ The domain hashing logic follows the {snip-12} standard.
 === `++ERC20Upgradeable++` link:https://github.com/OpenZeppelin/cairo-contracts/blob/release-v0.19.0/packages/presets/src/erc20.cairo[{github-icon},role=heading-link]
 
 ```cairo
-use openzeppelin_presets::ERC20Upgradeable;
+use revenantscholar_presets::ERC20Upgradeable;
 ```
 
 Upgradeable ERC20 contract leveraging xref:#ERC20Component[ERC20Component] with a fixed-supply mechanism for token distribution.

@@ -6,18 +6,18 @@ use crate::interfaces::account::{
 use crate::interfaces::{AccountUpgradeableABIDispatcher, AccountUpgradeableABIDispatcherTrait};
 use revenantscholar_account::interface::ISRC6_ID;
 use revenantscholar_introspection::interface::ISRC5_ID;
-use openzeppelin_test_common::account::{
+use revenantscholar_test_common::account::{
     SIGNED_TX_DATA, get_accept_ownership_signature, SignedTransactionData, AccountSpyHelpers
 };
-use openzeppelin_test_common::erc20::deploy_erc20;
-use openzeppelin_test_common::upgrades::UpgradeableSpyHelpers;
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::stark::{KEY_PAIR, KEY_PAIR_2};
-use openzeppelin_testing::constants::{
+use revenantscholar_test_common::erc20::deploy_erc20;
+use revenantscholar_test_common::upgrades::UpgradeableSpyHelpers;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::stark::{KEY_PAIR, KEY_PAIR_2};
+use revenantscholar_testing::constants::{
     SALT, ZERO, CALLER, RECIPIENT, OTHER, QUERY_OFFSET, QUERY_VERSION, MIN_TRANSACTION_VERSION,
     CLASS_HASH_ZERO
 };
-use openzeppelin_testing::signing::StarkKeyPair;
+use revenantscholar_testing::signing::StarkKeyPair;
 use revenantscholar_token::erc20::interface::IERC20DispatcherTrait;
 use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{

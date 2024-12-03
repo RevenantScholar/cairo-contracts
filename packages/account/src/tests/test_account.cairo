@@ -5,16 +5,16 @@ use crate::AccountComponent;
 use crate::interface::{AccountABIDispatcherTrait, AccountABIDispatcher};
 use crate::interface::{ISRC6, ISRC6_ID};
 use revenantscholar_introspection::interface::{ISRC5, ISRC5_ID};
-use openzeppelin_test_common::account::{AccountSpyHelpers, SignedTransactionData};
-use openzeppelin_test_common::account::{SIGNED_TX_DATA, get_accept_ownership_signature};
-use openzeppelin_test_common::mocks::account::DualCaseAccountMock;
-use openzeppelin_test_common::mocks::simple::{ISimpleMockDispatcher, ISimpleMockDispatcherTrait};
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::stark::{KEY_PAIR, KEY_PAIR_2};
-use openzeppelin_testing::constants::{
+use revenantscholar_test_common::account::{AccountSpyHelpers, SignedTransactionData};
+use revenantscholar_test_common::account::{SIGNED_TX_DATA, get_accept_ownership_signature};
+use revenantscholar_test_common::mocks::account::DualCaseAccountMock;
+use revenantscholar_test_common::mocks::simple::{ISimpleMockDispatcher, ISimpleMockDispatcherTrait};
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::stark::{KEY_PAIR, KEY_PAIR_2};
+use revenantscholar_testing::constants::{
     SALT, ZERO, OTHER, CALLER, QUERY_OFFSET, QUERY_VERSION, MIN_TRANSACTION_VERSION
 };
-use openzeppelin_testing::signing::StarkKeyPair;
+use revenantscholar_testing::signing::StarkKeyPair;
 use snforge_std::{
     start_cheat_signature_global, start_cheat_transaction_version_global,
     start_cheat_transaction_hash_global

@@ -4,15 +4,15 @@ use crate::interfaces::erc20::{
     ERC20UpgradeableABISafeDispatcher, ERC20UpgradeableABISafeDispatcherTrait
 };
 use crate::interfaces::{ERC20UpgradeableABIDispatcher, ERC20UpgradeableABIDispatcherTrait};
-use openzeppelin_test_common::erc20::ERC20SpyHelpers;
-use openzeppelin_test_common::ownable::OwnableSpyHelpers;
-use openzeppelin_test_common::upgrades::UpgradeableSpyHelpers;
-use openzeppelin_testing as utils;
-use openzeppelin_testing::common::IntoBase16String;
-use openzeppelin_testing::constants::{
+use revenantscholar_test_common::erc20::ERC20SpyHelpers;
+use revenantscholar_test_common::ownable::OwnableSpyHelpers;
+use revenantscholar_test_common::upgrades::UpgradeableSpyHelpers;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::common::IntoBase16String;
+use revenantscholar_testing::constants::{
     ZERO, OWNER, SPENDER, RECIPIENT, OTHER, NAME, SYMBOL, DECIMALS, SUPPLY, VALUE, CLASS_HASH_ZERO
 };
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing::events::EventSpyExt;
 use revenantscholar_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
 use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{spy_events, EventSpy, start_cheat_caller_address};

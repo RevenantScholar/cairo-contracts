@@ -1,5 +1,5 @@
 [package]
-name = "openzeppelin_presets"
+name = "revenantscholar_presets"
 readme = "README.md"
 keywords = [
     "openzeppelin",
@@ -24,17 +24,17 @@ fmt.workspace = true
 starknet.workspace = true
 revenantscholar_access = { path = "../access" }
 revenantscholar_account = { path = "../account" }
-openzeppelin_finance = { path = "../finance" }
+revenantscholar_finance = { path = "../finance" }
 revenantscholar_introspection = { path = "../introspection" }
 revenantscholar_token = { path = "../token" }
-openzeppelin_upgrades = { path = "../upgrades" }
+revenantscholar_upgrades = { path = "../upgrades" }
 revenantscholar_utils = { path = "../utils" }
 
 [dev-dependencies]
 assert_macros.workspace = true
 snforge_std.workspace = true
-openzeppelin_testing = { path = "../testing" }
-openzeppelin_test_common = { path = "../test_common" }
+revenantscholar_testing = { path = "../testing" }
+revenantscholar_test_common = { path = "../test_common" }
 
 [lib]
 
@@ -44,17 +44,17 @@ sierra = true
 casm = false
 
 [[test]]
-name = "openzeppelin_presets_unittest"
+name = "revenantscholar_presets_unittest"
 build-external-contracts = [
-    "openzeppelin_test_common::mocks::account::DualCaseAccountMock",
-    "openzeppelin_test_common::mocks::account::SnakeAccountMock",
-    "openzeppelin_test_common::mocks::account::SnakeEthAccountMock",
-    "openzeppelin_test_common::mocks::erc20::DualCaseERC20Mock",
-    "openzeppelin_test_common::mocks::erc20::SnakeERC20Mock",
-    "openzeppelin_test_common::mocks::erc721::SnakeERC721Mock",
-    "openzeppelin_test_common::mocks::erc721::DualCaseERC721ReceiverMock",
-    "openzeppelin_test_common::mocks::erc1155::DualCaseERC1155ReceiverMock",
-    "openzeppelin_test_common::mocks::erc1155::SnakeERC1155Mock",
-    "openzeppelin_test_common::mocks::src5::SRC5Mock",
-    "openzeppelin_test_common::mocks::non_implementing::NonImplementingMock",
+    "revenantscholar_test_common::mocks::account::DualCaseAccountMock",
+    "revenantscholar_test_common::mocks::account::SnakeAccountMock",
+    "revenantscholar_test_common::mocks::account::SnakeEthAccountMock",
+    "revenantscholar_test_common::mocks::erc20::DualCaseERC20Mock",
+    "revenantscholar_test_common::mocks::erc20::SnakeERC20Mock",
+    "revenantscholar_test_common::mocks::erc721::SnakeERC721Mock",
+    "revenantscholar_test_common::mocks::erc721::DualCaseERC721ReceiverMock",
+    "revenantscholar_test_common::mocks::erc1155::DualCaseERC1155ReceiverMock",
+    "revenantscholar_test_common::mocks::erc1155::SnakeERC1155Mock",
+    "revenantscholar_test_common::mocks::src5::SRC5Mock",
+    "revenantscholar_test_common::mocks::non_implementing::NonImplementingMock",
 ]

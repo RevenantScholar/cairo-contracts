@@ -1,8 +1,8 @@
 use crate::universal_deployer::UniversalDeployer::ContractDeployed;
 use crate::universal_deployer::UniversalDeployer;
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::{NAME, SYMBOL, SUPPLY, SALT, CALLER, RECIPIENT};
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::{NAME, SYMBOL, SUPPLY, SALT, CALLER, RECIPIENT};
+use revenantscholar_testing::events::EventSpyExt;
 use revenantscholar_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
 use revenantscholar_utils::deployments::{DeployerInfo, calculate_contract_address_from_udc};
 use revenantscholar_utils::interfaces::{

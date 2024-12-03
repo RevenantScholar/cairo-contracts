@@ -1,5 +1,5 @@
 [package]
-name = "openzeppelin_test_common"
+name = "revenantscholar_test_common"
 readme = "README.md"
 version.workspace = true
 edition.workspace = true
@@ -18,16 +18,16 @@ fmt.workspace = true
 [dependencies]
 starknet.workspace = true
 snforge_std.workspace = true
-openzeppelin_upgrades = { path = "../upgrades" }
+revenantscholar_upgrades = { path = "../upgrades" }
 revenantscholar_access = { path = "../access" }
 revenantscholar_account = { path = "../account" }
-openzeppelin_finance = { path = "../finance" }
+revenantscholar_finance = { path = "../finance" }
 revenantscholar_introspection = { path = "../introspection" }
-openzeppelin_security = { path = "../security" }
+revenantscholar_security = { path = "../security" }
 revenantscholar_token = { path = "../token" }
-openzeppelin_testing = { path = "../testing" }
+revenantscholar_testing = { path = "../testing" }
 revenantscholar_utils = { path = "../utils" }
-openzeppelin_governance = { path = "../governance" }
+revenantscholar_governance = { path = "../governance" }
 
 [lib]
 

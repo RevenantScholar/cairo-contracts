@@ -1,7 +1,7 @@
 #[starknet::contract]
 pub mod LinearVestingMock {
     use revenantscholar_access::ownable::OwnableComponent;
-    use openzeppelin_finance::vesting::{VestingComponent, LinearVestingSchedule};
+    use revenantscholar_finance::vesting::{VestingComponent, LinearVestingSchedule};
     use starknet::ContractAddress;
 
     component!(path: OwnableComponent, storage: ownable, event: OwnableEvent);
@@ -50,8 +50,8 @@ pub mod LinearVestingMock {
 #[starknet::contract]
 pub mod StepsVestingMock {
     use revenantscholar_access::ownable::OwnableComponent;
-    use openzeppelin_finance::vesting::VestingComponent::VestingScheduleTrait;
-    use openzeppelin_finance::vesting::VestingComponent;
+    use revenantscholar_finance::vesting::VestingComponent::VestingScheduleTrait;
+    use revenantscholar_finance::vesting::VestingComponent;
     use starknet::ContractAddress;
     use starknet::storage::{StoragePointerReadAccess, StoragePointerWriteAccess};
 

@@ -663,7 +663,7 @@ Registers the `IERC1155Receiver` interface ID as supported through introspection
 === `++ERC1155Upgradeable++` link:https://github.com/OpenZeppelin/cairo-contracts/blob/release-v0.19.0/packages/presets/src/erc1155.cairo[{github-icon},role=heading-link]
 
 ```cairo
-use openzeppelin_presets::ERC1155;
+use revenantscholar_presets::ERC1155;
 ```
 
 Upgradeable ERC1155 contract leveraging xref:#ERC1155Component[ERC1155Component].

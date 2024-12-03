@@ -1,6 +1,6 @@
-use openzeppelin_finance::vesting::interface::IVestingDispatcher;
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants;
+use revenantscholar_finance::vesting::interface::IVestingDispatcher;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants;
 use revenantscholar_token::erc20::interface::IERC20Dispatcher;
 use revenantscholar_utils::serde::SerializedAppend;
 use starknet::{ContractAddress, SyscallResultTrait};

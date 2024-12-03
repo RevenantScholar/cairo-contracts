@@ -3,9 +3,9 @@ use crate::vesting::VestingComponent::InternalImpl;
 use crate::vesting::VestingComponent;
 use crate::vesting::interface::IVestingDispatcherTrait;
 use revenantscholar_access::ownable::interface::{IOwnableDispatcher, IOwnableDispatcherTrait};
-use openzeppelin_test_common::mocks::vesting::LinearVestingMock;
-use openzeppelin_test_common::vesting::VestingSpyHelpers;
-use openzeppelin_testing::constants::{OWNER, OTHER};
+use revenantscholar_test_common::mocks::vesting::LinearVestingMock;
+use revenantscholar_test_common::vesting::VestingSpyHelpers;
+use revenantscholar_testing::constants::{OWNER, OTHER};
 use revenantscholar_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
 use snforge_std::{spy_events, start_cheat_caller_address, start_cheat_block_timestamp_global};
 

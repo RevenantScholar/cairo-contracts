@@ -1,4 +1,4 @@
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing::events::EventSpyExt;
 use revenantscholar_token::erc721::ERC721Component::{Approval, ApprovalForAll, Transfer};
 use revenantscholar_token::erc721::ERC721Component;
 use snforge_std::EventSpy;

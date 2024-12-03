@@ -3,7 +3,7 @@ use core::poseidon::{PoseidonTrait, poseidon_hash_span};
 use crate::cryptography::snip12::{
     STARKNET_DOMAIN_TYPE_HASH, StarknetDomain, StructHash, OffchainMessageHashImpl, SNIP12Metadata
 };
-use openzeppelin_testing::constants::{OWNER, RECIPIENT};
+use revenantscholar_testing::constants::{OWNER, RECIPIENT};
 use snforge_std::{start_cheat_chain_id, test_address};
 use starknet::ContractAddress;
 

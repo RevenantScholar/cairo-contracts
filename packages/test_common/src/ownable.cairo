@@ -1,6 +1,6 @@
 use revenantscholar_access::ownable::OwnableComponent::OwnershipTransferred;
 use revenantscholar_access::ownable::OwnableComponent;
-use openzeppelin_testing::EventSpyExt;
+use revenantscholar_testing::EventSpyExt;
 use snforge_std::EventSpy;
 use starknet::ContractAddress;
 

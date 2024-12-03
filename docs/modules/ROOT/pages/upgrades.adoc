@@ -52,8 +52,8 @@ NOTE: We will be using the following module to implement the {i_upgradeable} int
 #[starknet::contract]
 mod UpgradeableContract {
     use revenantscholar_access::ownable::OwnableComponent;
-    use openzeppelin_upgrades::UpgradeableComponent;
-    use openzeppelin_upgrades::interface::IUpgradeable;
+    use revenantscholar_upgrades::UpgradeableComponent;
+    use revenantscholar_upgrades::interface::IUpgradeable;
     use starknet::ClassHash;
     use starknet::ContractAddress;
 

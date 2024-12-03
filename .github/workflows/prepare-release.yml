@@ -46,7 +46,7 @@ jobs:
         version: "0.1.0"
 
     - name: Build presets artifacts
-      run: scarb build -p openzeppelin_presets
+      run: scarb build -p revenantscholar_presets
 
     - name: Update presets page
       run: |

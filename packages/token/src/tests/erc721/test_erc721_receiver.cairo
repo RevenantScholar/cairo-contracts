@@ -4,8 +4,8 @@ use crate::erc721::ERC721ReceiverComponent::{
 use crate::erc721::interface::IERC721_RECEIVER_ID;
 use revenantscholar_introspection::interface::ISRC5_ID;
 use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
-use openzeppelin_test_common::mocks::erc721::DualCaseERC721ReceiverMock;
-use openzeppelin_testing::constants::{OWNER, OPERATOR, TOKEN_ID};
+use revenantscholar_test_common::mocks::erc721::DualCaseERC721ReceiverMock;
+use revenantscholar_testing::constants::{OWNER, OPERATOR, TOKEN_ID};
 
 fn STATE() -> DualCaseERC721ReceiverMock::ContractState {
     DualCaseERC721ReceiverMock::contract_state_for_testing()

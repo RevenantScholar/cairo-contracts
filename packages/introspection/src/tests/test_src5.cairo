@@ -1,7 +1,7 @@
 use crate::interface::{ISRC5_ID, ISRC5};
 use crate::src5::SRC5Component::InternalTrait;
 use crate::src5::SRC5Component;
-use openzeppelin_test_common::mocks::src5::SRC5Mock;
+use revenantscholar_test_common::mocks::src5::SRC5Mock;
 
 const OTHER_ID: felt252 = 0x12345678;
 

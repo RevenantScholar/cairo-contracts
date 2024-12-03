@@ -9,17 +9,17 @@ use crate::interfaces::{
 use revenantscholar_account::interface::ISRC6_ID;
 use revenantscholar_account::utils::secp256_point::{DebugSecp256Point, Secp256PointPartialEq};
 use revenantscholar_introspection::interface::ISRC5_ID;
-use openzeppelin_test_common::erc20::deploy_erc20;
-use openzeppelin_test_common::eth_account::EthAccountSpyHelpers;
-use openzeppelin_test_common::eth_account::{
+use revenantscholar_test_common::erc20::deploy_erc20;
+use revenantscholar_test_common::eth_account::EthAccountSpyHelpers;
+use revenantscholar_test_common::eth_account::{
     SIGNED_TX_DATA, SignedTransactionData, get_accept_ownership_signature
 };
-use openzeppelin_test_common::upgrades::UpgradeableSpyHelpers;
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::secp256k1::{KEY_PAIR, KEY_PAIR_2};
-use openzeppelin_testing::constants::{CLASS_HASH_ZERO, ZERO, RECIPIENT, CALLER, OTHER};
-use openzeppelin_testing::constants::{SALT, QUERY_VERSION, MIN_TRANSACTION_VERSION};
-use openzeppelin_testing::signing::Secp256k1KeyPair;
+use revenantscholar_test_common::upgrades::UpgradeableSpyHelpers;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::secp256k1::{KEY_PAIR, KEY_PAIR_2};
+use revenantscholar_testing::constants::{CLASS_HASH_ZERO, ZERO, RECIPIENT, CALLER, OTHER};
+use revenantscholar_testing::constants::{SALT, QUERY_VERSION, MIN_TRANSACTION_VERSION};
+use revenantscholar_testing::signing::Secp256k1KeyPair;
 use revenantscholar_token::erc20::interface::IERC20DispatcherTrait;
 use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{

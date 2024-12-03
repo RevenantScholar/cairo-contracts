@@ -2,9 +2,9 @@ use core::num::traits::Zero;
 use crate::ownable::OwnableComponent::InternalTrait;
 use crate::ownable::OwnableComponent;
 use crate::ownable::interface::{IOwnable, IOwnableCamelOnly};
-use openzeppelin_test_common::mocks::access::DualCaseOwnableMock;
-use openzeppelin_test_common::ownable::OwnableSpyHelpers;
-use openzeppelin_testing::constants::{ZERO, OTHER, OWNER, RECIPIENT};
+use revenantscholar_test_common::mocks::access::DualCaseOwnableMock;
+use revenantscholar_test_common::ownable::OwnableSpyHelpers;
+use revenantscholar_testing::constants::{ZERO, OTHER, OWNER, RECIPIENT};
 use snforge_std::{spy_events, test_address, start_cheat_caller_address};
 use starknet::storage::{StoragePointerReadAccess, StoragePointerWriteAccess};
 

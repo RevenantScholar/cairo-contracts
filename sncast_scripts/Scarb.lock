@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "openzeppelin_finance"
+name = "revenantscholar_finance"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
@@ -26,7 +26,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "openzeppelin_governance"
+name = "revenantscholar_governance"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
@@ -38,19 +38,19 @@ name = "revenantscholar_introspection"
 version = "0.19.0"
 
 [[package]]
-name = "openzeppelin_presets"
+name = "revenantscholar_presets"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
  "revenantscholar_account",
- "openzeppelin_finance",
+ "revenantscholar_finance",
  "revenantscholar_introspection",
  "revenantscholar_token",
- "openzeppelin_upgrades",
+ "revenantscholar_upgrades",
 ]
 
 [[package]]
-name = "openzeppelin_testing"
+name = "revenantscholar_testing"
 version = "0.19.0"
 dependencies = [
  "snforge_std",
@@ -61,12 +61,12 @@ name = "revenantscholar_token"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_account",
- "openzeppelin_governance",
+ "revenantscholar_governance",
  "revenantscholar_introspection",
 ]
 
 [[package]]
-name = "openzeppelin_upgrades"
+name = "revenantscholar_upgrades"
 version = "0.19.0"
 
 [[package]]
@@ -77,8 +77,8 @@ version = "0.19.0"
 name = "sncast_scripts"
 version = "0.1.0"
 dependencies = [
- "openzeppelin_presets",
- "openzeppelin_testing",
+ "revenantscholar_presets",
+ "revenantscholar_testing",
  "sncast_std",
 ]
 

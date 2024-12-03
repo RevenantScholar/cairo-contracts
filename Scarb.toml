@@ -48,20 +48,20 @@ snforge_std = "0.31.0"
 starknet.workspace = true
 revenantscholar_access = { path = "packages/access" }
 revenantscholar_account = { path = "packages/account" }
-openzeppelin_finance = { path = "packages/finance" }
-openzeppelin_governance = { path = "packages/governance" }
+revenantscholar_finance = { path = "packages/finance" }
+revenantscholar_governance = { path = "packages/governance" }
 revenantscholar_introspection = { path = "packages/introspection" }
-openzeppelin_merkle_tree = { path = "packages/merkle_tree" }
-openzeppelin_presets = { path = "packages/presets" }
-openzeppelin_security = { path = "packages/security" }
+revenantscholar_merkle_tree = { path = "packages/merkle_tree" }
+revenantscholar_presets = { path = "packages/presets" }
+revenantscholar_security = { path = "packages/security" }
 revenantscholar_token = { path = "packages/token" }
-openzeppelin_upgrades = { path = "packages/upgrades" }
+revenantscholar_upgrades = { path = "packages/upgrades" }
 revenantscholar_utils = { path = "packages/utils" }
 
 [dev-dependencies]
 snforge_std.workspace = true
-openzeppelin_test_common = { path = "packages/test_common" }
-openzeppelin_testing = { path = "packages/testing" }
+revenantscholar_test_common = { path = "packages/test_common" }
+revenantscholar_testing = { path = "packages/testing" }
 
 [lib]
 

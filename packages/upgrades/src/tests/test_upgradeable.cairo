@@ -1,12 +1,12 @@
-use openzeppelin_test_common::mocks::upgrades::{
+use revenantscholar_test_common::mocks::upgrades::{
     IUpgradesV1SafeDispatcher, IUpgradesV1SafeDispatcherTrait
 };
-use openzeppelin_test_common::mocks::upgrades::{IUpgradesV1Dispatcher, IUpgradesV1DispatcherTrait};
-use openzeppelin_test_common::mocks::upgrades::{IUpgradesV2Dispatcher, IUpgradesV2DispatcherTrait};
-use openzeppelin_test_common::upgrades::UpgradeableSpyHelpers;
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::{CLASS_HASH_ZERO, FELT_VALUE as VALUE};
-use openzeppelin_testing::{declare_class, deploy};
+use revenantscholar_test_common::mocks::upgrades::{IUpgradesV1Dispatcher, IUpgradesV1DispatcherTrait};
+use revenantscholar_test_common::mocks::upgrades::{IUpgradesV2Dispatcher, IUpgradesV2DispatcherTrait};
+use revenantscholar_test_common::upgrades::UpgradeableSpyHelpers;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::{CLASS_HASH_ZERO, FELT_VALUE as VALUE};
+use revenantscholar_testing::{declare_class, deploy};
 use snforge_std::{spy_events, ContractClass};
 
 //

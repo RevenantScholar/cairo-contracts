@@ -1,5 +1,5 @@
 [package]
-name = "openzeppelin_governance"
+name = "revenantscholar_governance"
 readme = "README.md"
 keywords = [
     "openzeppelin",
@@ -32,8 +32,8 @@ revenantscholar_token = { path= "../token" }
 assert_macros.workspace = true
 snforge_std.workspace = true
 revenantscholar_utils = { path = "../utils" }
-openzeppelin_testing = { path = "../testing" }
-openzeppelin_test_common = { path = "../test_common" }
+revenantscholar_testing = { path = "../testing" }
+revenantscholar_test_common = { path = "../test_common" }
 
 [lib]
 
@@ -43,13 +43,13 @@ sierra = true
 casm = false
 
 [[test]]
-name = "openzeppelin_governance_unittest"
+name = "revenantscholar_governance_unittest"
 build-external-contracts = [
-    "openzeppelin_test_common::mocks::account::SnakeAccountMock",
-    "openzeppelin_test_common::mocks::timelock::TimelockControllerMock",
-    "openzeppelin_test_common::mocks::timelock::MockContract",
-    "openzeppelin_test_common::mocks::timelock::TimelockAttackerMock",
-    "openzeppelin_test_common::mocks::multisig::MultisigTargetMock",
-    "openzeppelin_test_common::mocks::votes::ERC721VotesMock",
-    "openzeppelin_test_common::mocks::votes::ERC20VotesMock"
+    "revenantscholar_test_common::mocks::account::SnakeAccountMock",
+    "revenantscholar_test_common::mocks::timelock::TimelockControllerMock",
+    "revenantscholar_test_common::mocks::timelock::MockContract",
+    "revenantscholar_test_common::mocks::timelock::TimelockAttackerMock",
+    "revenantscholar_test_common::mocks::multisig::MultisigTargetMock",
+    "revenantscholar_test_common::mocks::votes::ERC721VotesMock",
+    "revenantscholar_test_common::mocks::votes::ERC20VotesMock"
 ]

@@ -1,9 +1,9 @@
 use crate::PausableComponent::{InternalImpl, PausableImpl};
 use crate::PausableComponent::{Paused, Unpaused};
 use crate::PausableComponent;
-use openzeppelin_test_common::mocks::security::PausableMock;
-use openzeppelin_testing::constants::CALLER;
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_test_common::mocks::security::PausableMock;
+use revenantscholar_testing::constants::CALLER;
+use revenantscholar_testing::events::EventSpyExt;
 use snforge_std::EventSpy;
 use snforge_std::{spy_events, test_address, start_cheat_caller_address};
 use starknet::ContractAddress;

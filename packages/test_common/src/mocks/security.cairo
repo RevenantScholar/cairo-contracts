@@ -1,7 +1,7 @@
 use starknet::ContractAddress;
 #[starknet::contract]
 pub mod InitializableMock {
-    use openzeppelin_security::initializable::InitializableComponent;
+    use revenantscholar_security::initializable::InitializableComponent;
 
     component!(path: InitializableComponent, storage: initializable, event: InitializableEvent);
 
@@ -25,7 +25,7 @@ pub mod InitializableMock {
 
 #[starknet::contract]
 pub mod PausableMock {
-    use openzeppelin_security::pausable::PausableComponent;
+    use revenantscholar_security::pausable::PausableComponent;
 
     component!(path: PausableComponent, storage: pausable, event: PausableEvent);
 
@@ -64,7 +64,7 @@ pub trait IReentrancyMock<TState> {
 
 #[starknet::contract]
 pub mod ReentrancyMock {
-    use openzeppelin_security::reentrancyguard::ReentrancyGuardComponent;
+    use revenantscholar_security::reentrancyguard::ReentrancyGuardComponent;
     use starknet::ContractAddress;
     use starknet::get_contract_address;
     use starknet::storage::{StoragePointerReadAccess, StoragePointerWriteAccess};

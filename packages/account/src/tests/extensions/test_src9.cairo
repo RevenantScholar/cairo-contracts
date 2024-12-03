@@ -4,9 +4,9 @@ use crate::extensions::src9::interface::{ISRC9_V2Dispatcher, ISRC9_V2DispatcherT
 use crate::extensions::src9::interface::{OutsideExecution, ISRC9_V2_ID};
 use crate::extensions::src9::snip12_utils::OutsideExecutionStructHash;
 use revenantscholar_introspection::interface::{ISRC5, ISRC5_ID};
-use openzeppelin_test_common::mocks::src9::SRC9AccountMock;
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::{RECIPIENT, OWNER, OTHER, FELT_VALUE};
+use revenantscholar_test_common::mocks::src9::SRC9AccountMock;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::{RECIPIENT, OWNER, OTHER, FELT_VALUE};
 use revenantscholar_utils::cryptography::snip12::OffchainMessageHash;
 use snforge_std::signature::KeyPairTrait;
 use snforge_std::signature::stark_curve::{StarkCurveKeyPairImpl, StarkCurveSignerImpl};

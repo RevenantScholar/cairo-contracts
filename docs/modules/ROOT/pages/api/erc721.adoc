@@ -991,7 +991,7 @@ This has 0(1) time complexity but alters the indexed order by swapping `token_id
 === `++ERC721Upgradeable++` link:https://github.com/OpenZeppelin/cairo-contracts/blob/release-v0.19.0/packages/presets/src/erc721.cairo[{github-icon},role=heading-link]
 
 ```cairo
-use openzeppelin_presets::ERC721Upgradeable;
+use revenantscholar_presets::ERC721Upgradeable;
 ```
 
 Upgradeable ERC721 contract leveraging xref:#ERC721Component[ERC721Component].

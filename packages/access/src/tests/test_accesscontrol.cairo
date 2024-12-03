@@ -4,11 +4,11 @@ use crate::accesscontrol::AccessControlComponent::{
 use crate::accesscontrol::interface::{IAccessControl, IAccessControlCamel, IACCESSCONTROL_ID};
 use crate::accesscontrol::{AccessControlComponent, DEFAULT_ADMIN_ROLE};
 use revenantscholar_introspection::interface::ISRC5;
-use openzeppelin_test_common::mocks::access::DualCaseAccessControlMock;
-use openzeppelin_testing::constants::{
+use revenantscholar_test_common::mocks::access::DualCaseAccessControlMock;
+use revenantscholar_testing::constants::{
     ADMIN, AUTHORIZED, OTHER, OTHER_ADMIN, ROLE, OTHER_ROLE, ZERO
 };
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing::events::EventSpyExt;
 use snforge_std::{EventSpy, spy_events, start_cheat_caller_address, test_address};
 use starknet::ContractAddress;
 

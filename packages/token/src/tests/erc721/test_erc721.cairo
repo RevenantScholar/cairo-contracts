@@ -4,14 +4,14 @@ use crate::erc721::ERC721Component::{ERC721MetadataImpl, InternalImpl};
 use crate::erc721::ERC721Component;
 use crate::erc721;
 use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
-use openzeppelin_test_common::erc721::ERC721SpyHelpers;
-use openzeppelin_test_common::mocks::erc721::{DualCaseERC721Mock, SnakeERC721MockWithHooks};
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::{
+use revenantscholar_test_common::erc721::ERC721SpyHelpers;
+use revenantscholar_test_common::mocks::erc721::{DualCaseERC721Mock, SnakeERC721MockWithHooks};
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::{
     DATA, ZERO, OWNER, CALLER, RECIPIENT, SPENDER, OPERATOR, OTHER, NAME, SYMBOL, TOKEN_ID,
     TOKEN_ID_2, PUBKEY, BASE_URI, BASE_URI_2
 };
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing::events::EventSpyExt;
 use snforge_std::{EventSpy, spy_events, test_address, start_cheat_caller_address};
 use starknet::ContractAddress;
 use starknet::storage::StorageMapReadAccess;

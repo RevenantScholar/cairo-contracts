@@ -9,8 +9,8 @@
 pub mod AccountUpgradeable {
     use revenantscholar_account::AccountComponent;
     use revenantscholar_introspection::src5::SRC5Component;
-    use openzeppelin_upgrades::UpgradeableComponent;
-    use openzeppelin_upgrades::interface::IUpgradeable;
+    use revenantscholar_upgrades::UpgradeableComponent;
+    use revenantscholar_upgrades::interface::IUpgradeable;
     use starknet::ClassHash;
 
     component!(path: AccountComponent, storage: account, event: AccountEvent);

@@ -8,7 +8,7 @@ This crate provides various helper functions for declaring, deploying,
 and testing smart contracts using the `snforge` toolchain from Starknet Foundry.
 
 ```cairo
-use openzeppelin_testing;
+use revenantscholar_testing;
 ```
 
 The module isn't part of the `openzeppelin` package and to be accessible has to
@@ -16,7 +16,7 @@ be added as a separate dependency in `Scarb.toml`:
 
 ```
 [dev-dependencies]
-openzeppelin_testing = "0.19.0"
+revenantscholar_testing = "0.19.0"
 ```
 
 == Test Utilities
@@ -28,7 +28,7 @@ openzeppelin_testing = "0.19.0"
 A module providing common test helpers.
 
 ```cairo
-use openzeppelin_testing::common;
+use revenantscholar_testing::common;
 ```
 
 [.contract-index]
@@ -89,7 +89,7 @@ convertible to `felt252`.
 Usage example:
 
 ```cairo
-use openzeppelin_testing::common::IntoBase16String;
+use revenantscholar_testing::common::IntoBase16String;
 
 let expected_panic_message = format!(
     "Entry point selector {} not found in contract {}",
@@ -105,7 +105,7 @@ NOTE: The no-padding version can be used in the same way by calling `selector.in
 === `++deployment++`
 
 ```cairo
-use openzeppelin_testing::deployment;
+use revenantscholar_testing::deployment;
 ```
 
 A module containing utilities that simplify declaring and deploying contracts using the `snforge` toolchain.
@@ -155,7 +155,7 @@ nor its `class_hash` is available in the context. This helper function provides 
 the class hash from an existing contract and using it to facilitate the deployment.
 
 ```cairo
-use openzeppelin_testing::deploy_another_at;
+use revenantscholar_testing::deploy_another_at;
 
 let alice_address = setup_account(array!['ALICE_PUBKEY']);
 let bob_address = contract_address_const::<'BOB'>();
@@ -179,8 +179,8 @@ Combines the declaration of a class and the deployment of a contract at the give
 === `++events++`
 
 ```cairo
-use openzeppelin_testing::events;
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing::events;
+use revenantscholar_testing::events::EventSpyExt;
 ```
 
 A module offering an extended set of functions for handling emitted events, enhancing the default
@@ -257,7 +257,7 @@ Counts the number of remaining events emitted from the given address.
 === `++signing++`
 
 ```cairo
-use openzeppelin_testing::signing;
+use revenantscholar_testing::signing;
 ```
 
 A module offering utility functions for easier management of key pairs and signatures.
@@ -307,7 +307,7 @@ A helper trait that facilitates signing and converting the result signature into
 Usage example:
 
 ```cairo
-use openzeppelin_testing::signing::{
+use revenantscholar_testing::signing::{
     StarkKeyPair, get_stark_keys_from, StarkSerializedSigning
 };
 

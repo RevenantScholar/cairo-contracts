@@ -1,6 +1,6 @@
 use crate::InitializableComponent::{InitializableImpl, InternalImpl};
 use crate::InitializableComponent;
-use openzeppelin_test_common::mocks::security::InitializableMock;
+use revenantscholar_test_common::mocks::security::InitializableMock;
 
 type ComponentState = InitializableComponent::ComponentState<InitializableMock::ContractState>;
 

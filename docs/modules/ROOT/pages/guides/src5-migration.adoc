@@ -37,7 +37,7 @@ Here's the setup:
 #[starknet::contract]
 mod MigratingContract {
     use revenantscholar_introspection::src5::SRC5Component;
-    use openzeppelin_security::initializable::InitializableComponent;
+    use revenantscholar_security::initializable::InitializableComponent;
 
     component!(path: SRC5Component, storage: src5, event: SRC5Event);
     component!(path: InitializableComponent, storage: initializable, event: InitializableEvent);

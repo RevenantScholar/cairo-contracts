@@ -32,8 +32,8 @@ revenantscholar_utils = { path = "../utils" }
 [dev-dependencies]
 assert_macros.workspace = true
 snforge_std.workspace = true
-openzeppelin_testing = { path = "../testing" }
-openzeppelin_test_common = { path = "../test_common" }
+revenantscholar_testing = { path = "../testing" }
+revenantscholar_test_common = { path = "../test_common" }
 
 [lib]
 
@@ -45,9 +45,9 @@ casm = false
 [[test]]
 name = "revenantscholar_token_unittest"
 build-external-contracts = [
-    "openzeppelin_test_common::mocks::account::DualCaseAccountMock",
-    "openzeppelin_test_common::mocks::erc721::DualCaseERC721ReceiverMock",
-    "openzeppelin_test_common::mocks::erc1155::DualCaseERC1155ReceiverMock",
-    "openzeppelin_test_common::mocks::non_implementing::NonImplementingMock",
-    "openzeppelin_test_common::mocks::src5::SRC5Mock",
+    "revenantscholar_test_common::mocks::account::DualCaseAccountMock",
+    "revenantscholar_test_common::mocks::erc721::DualCaseERC721ReceiverMock",
+    "revenantscholar_test_common::mocks::erc1155::DualCaseERC1155ReceiverMock",
+    "revenantscholar_test_common::mocks::non_implementing::NonImplementingMock",
+    "revenantscholar_test_common::mocks::src5::SRC5Mock",
 ]

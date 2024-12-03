@@ -1,6 +1,6 @@
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::{PUBKEY, TOKEN_ID, TOKEN_ID_2, TOKEN_VALUE, TOKEN_VALUE_2};
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::{PUBKEY, TOKEN_ID, TOKEN_ID_2, TOKEN_VALUE, TOKEN_VALUE_2};
+use revenantscholar_testing::events::EventSpyExt;
 use revenantscholar_token::erc1155::ERC1155Component::{TransferBatch, ApprovalForAll, TransferSingle};
 use revenantscholar_token::erc1155::ERC1155Component;
 use snforge_std::EventSpy;

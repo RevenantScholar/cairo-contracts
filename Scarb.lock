@@ -7,16 +7,16 @@ version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
  "revenantscholar_account",
- "openzeppelin_finance",
- "openzeppelin_governance",
+ "revenantscholar_finance",
+ "revenantscholar_governance",
  "revenantscholar_introspection",
- "openzeppelin_merkle_tree",
- "openzeppelin_presets",
- "openzeppelin_security",
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_merkle_tree",
+ "revenantscholar_presets",
+ "revenantscholar_security",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "revenantscholar_token",
- "openzeppelin_upgrades",
+ "revenantscholar_upgrades",
  "revenantscholar_utils",
  "snforge_std",
 ]
@@ -26,8 +26,8 @@ name = "revenantscholar_access"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_introspection",
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "revenantscholar_utils",
  "snforge_std",
 ]
@@ -37,32 +37,32 @@ name = "revenantscholar_account"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_introspection",
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "revenantscholar_utils",
  "snforge_std",
 ]
 
 [[package]]
-name = "openzeppelin_finance"
+name = "revenantscholar_finance"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "revenantscholar_token",
  "snforge_std",
 ]
 
 [[package]]
-name = "openzeppelin_governance"
+name = "revenantscholar_governance"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
  "revenantscholar_account",
  "revenantscholar_introspection",
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "revenantscholar_token",
  "revenantscholar_utils",
  "snforge_std",
@@ -72,61 +72,61 @@ dependencies = [
 name = "revenantscholar_introspection"
 version = "0.19.0"
 dependencies = [
- "openzeppelin_test_common",
+ "revenantscholar_test_common",
  "snforge_std",
 ]
 
 [[package]]
-name = "openzeppelin_merkle_tree"
+name = "revenantscholar_merkle_tree"
 version = "0.19.0"
 dependencies = [
  "snforge_std",
 ]
 
 [[package]]
-name = "openzeppelin_presets"
+name = "revenantscholar_presets"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
  "revenantscholar_account",
- "openzeppelin_finance",
+ "revenantscholar_finance",
  "revenantscholar_introspection",
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "revenantscholar_token",
- "openzeppelin_upgrades",
+ "revenantscholar_upgrades",
  "revenantscholar_utils",
  "snforge_std",
 ]
 
 [[package]]
-name = "openzeppelin_security"
+name = "revenantscholar_security"
 version = "0.19.0"
 dependencies = [
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "snforge_std",
 ]
 
 [[package]]
-name = "openzeppelin_test_common"
+name = "revenantscholar_test_common"
 version = "0.19.0"
 dependencies = [
  "revenantscholar_access",
  "revenantscholar_account",
- "openzeppelin_finance",
- "openzeppelin_governance",
+ "revenantscholar_finance",
+ "revenantscholar_governance",
  "revenantscholar_introspection",
- "openzeppelin_security",
- "openzeppelin_testing",
+ "revenantscholar_security",
+ "revenantscholar_testing",
  "revenantscholar_token",
- "openzeppelin_upgrades",
+ "revenantscholar_upgrades",
  "revenantscholar_utils",
  "snforge_std",
 ]
 
 [[package]]
-name = "openzeppelin_testing"
+name = "revenantscholar_testing"
 version = "0.19.0"
 dependencies = [
  "snforge_std",
@@ -139,18 +139,18 @@ dependencies = [
  "revenantscholar_access",
  "revenantscholar_account",
  "revenantscholar_introspection",
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "revenantscholar_utils",
  "snforge_std",
 ]
 
 [[package]]
-name = "openzeppelin_upgrades"
+name = "revenantscholar_upgrades"
 version = "0.19.0"
 dependencies = [
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "snforge_std",
 ]
 
@@ -158,8 +158,8 @@ dependencies = [
 name = "revenantscholar_utils"
 version = "0.19.0"
 dependencies = [
- "openzeppelin_test_common",
- "openzeppelin_testing",
+ "revenantscholar_test_common",
+ "revenantscholar_testing",
  "snforge_std",
 ]
 

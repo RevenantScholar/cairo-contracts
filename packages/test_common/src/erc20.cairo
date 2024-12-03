@@ -1,6 +1,6 @@
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::{NAME, SYMBOL};
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::{NAME, SYMBOL};
+use revenantscholar_testing::events::EventSpyExt;
 use revenantscholar_token::erc20::ERC20Component::{Approval, Transfer};
 use revenantscholar_token::erc20::ERC20Component;
 use revenantscholar_token::erc20::interface::{IERC20Dispatcher};

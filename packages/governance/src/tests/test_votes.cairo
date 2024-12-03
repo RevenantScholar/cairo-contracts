@@ -4,11 +4,11 @@ use crate::votes::votes::VotesComponent::{
 };
 use crate::votes::votes::VotesComponent;
 use crate::votes::votes::VotingUnitsTrait;
-use openzeppelin_test_common::mocks::votes::ERC721VotesMock::SNIP12MetadataImpl;
-use openzeppelin_test_common::mocks::votes::{ERC721VotesMock, ERC20VotesMock};
-use openzeppelin_testing as utils;
-use openzeppelin_testing::constants::{SUPPLY, ZERO, DELEGATOR, DELEGATEE, OTHER, RECIPIENT};
-use openzeppelin_testing::events::EventSpyExt;
+use revenantscholar_test_common::mocks::votes::ERC721VotesMock::SNIP12MetadataImpl;
+use revenantscholar_test_common::mocks::votes::{ERC721VotesMock, ERC20VotesMock};
+use revenantscholar_testing as utils;
+use revenantscholar_testing::constants::{SUPPLY, ZERO, DELEGATOR, DELEGATEE, OTHER, RECIPIENT};
+use revenantscholar_testing::events::EventSpyExt;
 use revenantscholar_token::erc20::ERC20Component::InternalTrait;
 use revenantscholar_token::erc20::interface::IERC20;
 use revenantscholar_token::erc721::ERC721Component::{
