@@ -15,8 +15,8 @@ pub mod SRC9Component {
     use crate::extensions::src9::snip12_utils::OutsideExecutionStructHash;
     use crate::utils::execute_calls;
     use revenantscholar_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
-    use openzeppelin_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
+    use revenantscholar_introspection::src5::SRC5Component;
     use openzeppelin_utils::cryptography::snip12::{OffchainMessageHash, SNIP12Metadata};
     use starknet::storage::{Map, StorageMapReadAccess, StorageMapWriteAccess};
 

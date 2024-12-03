@@ -4,7 +4,7 @@ use crate::AccountComponent::{PublicKeyCamelImpl, PublicKeyImpl};
 use crate::AccountComponent;
 use crate::interface::{AccountABIDispatcherTrait, AccountABIDispatcher};
 use crate::interface::{ISRC6, ISRC6_ID};
-use openzeppelin_introspection::interface::{ISRC5, ISRC5_ID};
+use revenantscholar_introspection::interface::{ISRC5, ISRC5_ID};
 use openzeppelin_test_common::account::{AccountSpyHelpers, SignedTransactionData};
 use openzeppelin_test_common::account::{SIGNED_TX_DATA, get_accept_ownership_signature};
 use openzeppelin_test_common::mocks::account::DualCaseAccountMock;

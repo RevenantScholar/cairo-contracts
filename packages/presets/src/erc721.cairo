@@ -11,7 +11,7 @@
 #[starknet::contract]
 pub mod ERC721Upgradeable {
     use revenantscholar_access::ownable::OwnableComponent;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::{ERC721Component, ERC721HooksEmptyImpl};
     use openzeppelin_upgrades::UpgradeableComponent;
     use openzeppelin_upgrades::interface::IUpgradeable;

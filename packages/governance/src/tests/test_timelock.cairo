@@ -16,8 +16,8 @@ use revenantscholar_access::accesscontrol::AccessControlComponent::{
 use revenantscholar_access::accesscontrol::DEFAULT_ADMIN_ROLE;
 use revenantscholar_access::accesscontrol::interface::IACCESSCONTROL_ID;
 use revenantscholar_access::accesscontrol::interface::IAccessControl;
-use openzeppelin_introspection::interface::ISRC5_ID;
-use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
+use revenantscholar_introspection::interface::ISRC5_ID;
+use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
 use openzeppelin_test_common::mocks::timelock::ITimelockAttackerDispatcher;
 use openzeppelin_test_common::mocks::timelock::TimelockControllerMock;
 use openzeppelin_test_common::mocks::timelock::{

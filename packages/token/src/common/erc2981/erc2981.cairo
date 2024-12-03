@@ -26,9 +26,9 @@ pub mod ERC2981Component {
     use revenantscholar_access::accesscontrol::AccessControlComponent;
     use revenantscholar_access::ownable::OwnableComponent::InternalTrait as OwnableInternalTrait;
     use revenantscholar_access::ownable::OwnableComponent;
-    use openzeppelin_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
-    use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
+    use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
+    use revenantscholar_introspection::src5::SRC5Component;
 
     use starknet::ContractAddress;
     use starknet::storage::{

@@ -5,7 +5,7 @@ use crate::interface::{EthAccountABIDispatcherTrait, EthAccountABIDispatcher};
 use crate::interface::{ISRC6, ISRC6_ID};
 use crate::utils::secp256_point::{DebugSecp256Point, Secp256PointPartialEq};
 use crate::utils::signature::Secp256Signature;
-use openzeppelin_introspection::interface::{ISRC5, ISRC5_ID};
+use revenantscholar_introspection::interface::{ISRC5, ISRC5_ID};
 use openzeppelin_test_common::eth_account::EthAccountSpyHelpers;
 use openzeppelin_test_common::eth_account::{
     SIGNED_TX_DATA, SignedTransactionData, get_accept_ownership_signature

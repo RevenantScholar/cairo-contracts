@@ -2,8 +2,8 @@ use crate::erc721::ERC721ReceiverComponent::{
     ERC721ReceiverImpl, ERC721ReceiverCamelImpl, InternalImpl
 };
 use crate::erc721::interface::IERC721_RECEIVER_ID;
-use openzeppelin_introspection::interface::ISRC5_ID;
-use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
+use revenantscholar_introspection::interface::ISRC5_ID;
+use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
 use openzeppelin_test_common::mocks::erc721::DualCaseERC721ReceiverMock;
 use openzeppelin_testing::constants::{OWNER, OPERATOR, TOKEN_ID};
 

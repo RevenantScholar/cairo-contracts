@@ -2,7 +2,7 @@
 pub mod DualCaseAccessControlMock {
     use revenantscholar_access::accesscontrol::AccessControlComponent;
     use revenantscholar_access::accesscontrol::DEFAULT_ADMIN_ROLE;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use starknet::ContractAddress;
 
     component!(path: AccessControlComponent, storage: accesscontrol, event: AccessControlEvent);

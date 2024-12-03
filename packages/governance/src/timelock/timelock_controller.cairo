@@ -25,8 +25,8 @@ pub mod TimelockControllerComponent {
     };
     use revenantscholar_access::accesscontrol::AccessControlComponent;
     use revenantscholar_access::accesscontrol::DEFAULT_ADMIN_ROLE;
-    use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
+    use revenantscholar_introspection::src5::SRC5Component;
     use starknet::ContractAddress;
     use starknet::SyscallResultTrait;
     use starknet::account::Call;

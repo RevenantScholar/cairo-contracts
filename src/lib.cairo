@@ -2,7 +2,7 @@ pub use revenantscholar_access as access;
 pub use revenantscholar_account as account;
 pub use openzeppelin_finance as finance;
 pub use openzeppelin_governance as governance;
-pub use openzeppelin_introspection as introspection;
+pub use revenantscholar_introspection as introspection;
 pub use openzeppelin_merkle_tree as merkle_tree;
 pub use openzeppelin_presets as presets;
 pub use openzeppelin_security as security;

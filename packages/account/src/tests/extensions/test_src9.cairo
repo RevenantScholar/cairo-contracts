@@ -3,7 +3,7 @@ use crate::extensions::SRC9Component;
 use crate::extensions::src9::interface::{ISRC9_V2Dispatcher, ISRC9_V2DispatcherTrait};
 use crate::extensions::src9::interface::{OutsideExecution, ISRC9_V2_ID};
 use crate::extensions::src9::snip12_utils::OutsideExecutionStructHash;
-use openzeppelin_introspection::interface::{ISRC5, ISRC5_ID};
+use revenantscholar_introspection::interface::{ISRC5, ISRC5_ID};
 use openzeppelin_test_common::mocks::src9::SRC9AccountMock;
 use openzeppelin_testing as utils;
 use openzeppelin_testing::constants::{RECIPIENT, OWNER, OTHER, FELT_VALUE};

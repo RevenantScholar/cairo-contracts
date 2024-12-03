@@ -1,7 +1,7 @@
 #[starknet::contract]
 pub mod ERC721VotesMock {
     use openzeppelin_governance::votes::VotesComponent;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::ERC721Component;
     use openzeppelin_utils::cryptography::nonces::NoncesComponent;
     use openzeppelin_utils::cryptography::snip12::SNIP12Metadata;

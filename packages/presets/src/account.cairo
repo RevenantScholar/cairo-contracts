@@ -8,7 +8,7 @@
 #[starknet::contract(account)]
 pub mod AccountUpgradeable {
     use revenantscholar_account::AccountComponent;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use openzeppelin_upgrades::UpgradeableComponent;
     use openzeppelin_upgrades::interface::IUpgradeable;
     use starknet::ClassHash;

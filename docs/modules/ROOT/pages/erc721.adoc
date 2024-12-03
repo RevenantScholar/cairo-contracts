@@ -18,7 +18,7 @@ Here's an example of a basic contract:
 ----
 #[starknet::contract]
 mod MyNFT {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::{ERC721Component, ERC721HooksEmptyImpl};
     use starknet::ContractAddress;
 
@@ -195,7 +195,7 @@ Here's an example of a simple token receiver contract:
 ----
 #[starknet::contract]
 mod MyTokenReceiver {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::ERC721ReceiverComponent;
     use starknet::ContractAddress;
 

@@ -2,7 +2,7 @@ const SUCCESS: felt252 = 'SUCCESS';
 
 #[starknet::contract]
 pub mod DualCaseERC721Mock {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::{ERC721Component, ERC721HooksEmptyImpl};
     use starknet::ContractAddress;
 
@@ -58,7 +58,7 @@ pub mod DualCaseERC721Mock {
 
 #[starknet::contract]
 pub mod SnakeERC721Mock {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::{ERC721Component, ERC721HooksEmptyImpl};
     use starknet::ContractAddress;
 
@@ -111,7 +111,7 @@ pub mod SnakeERC721Mock {
 /// This is used to test that the hooks are called with the correct arguments.
 #[starknet::contract]
 pub mod SnakeERC721MockWithHooks {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::ERC721Component;
     use starknet::ContractAddress;
 
@@ -202,7 +202,7 @@ pub mod SnakeERC721MockWithHooks {
 
 #[starknet::contract]
 pub mod DualCaseERC721ReceiverMock {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::ERC721ReceiverComponent;
     use starknet::ContractAddress;
 
@@ -272,7 +272,7 @@ pub mod DualCaseERC721ReceiverMock {
 
 #[starknet::contract]
 pub mod ERC721EnumerableMock {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc721::ERC721Component;
     use revenantscholar_token::erc721::extensions::ERC721EnumerableComponent::InternalTrait;
     use revenantscholar_token::erc721::extensions::ERC721EnumerableComponent;

@@ -1,6 +1,6 @@
 #[starknet::contract]
 pub mod DualCaseERC1155Mock {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc1155::{ERC1155Component, ERC1155HooksEmptyImpl};
     use starknet::ContractAddress;
 
@@ -53,7 +53,7 @@ pub mod DualCaseERC1155Mock {
 
 #[starknet::contract]
 pub mod SnakeERC1155Mock {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc1155::{ERC1155Component, ERC1155HooksEmptyImpl};
     use starknet::ContractAddress;
 
@@ -106,7 +106,7 @@ pub mod SnakeERC1155Mock {
 /// This is used to test that the hooks are called with the correct arguments.
 #[starknet::contract]
 pub mod SnakeERC1155MockWithHooks {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc1155::{ERC1155Component};
     use starknet::ContractAddress;
 
@@ -201,7 +201,7 @@ pub mod SnakeERC1155MockWithHooks {
 
 #[starknet::contract]
 pub mod DualCaseERC1155ReceiverMock {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc1155::ERC1155ReceiverComponent;
 
     component!(path: SRC5Component, storage: src5, event: SRC5Event);

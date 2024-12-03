@@ -10,10 +10,10 @@ pub mod ERC721Component {
     use core::num::traits::Zero;
     use crate::erc721::interface::{IERC721ReceiverDispatcher, IERC721ReceiverDispatcherTrait};
     use crate::erc721::interface;
-    use openzeppelin_introspection::interface::{ISRC5Dispatcher, ISRC5DispatcherTrait};
-    use openzeppelin_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
-    use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::interface::{ISRC5Dispatcher, ISRC5DispatcherTrait};
+    use revenantscholar_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
+    use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
+    use revenantscholar_introspection::src5::SRC5Component;
     use starknet::ContractAddress;
     use starknet::get_caller_address;
     use starknet::storage::{

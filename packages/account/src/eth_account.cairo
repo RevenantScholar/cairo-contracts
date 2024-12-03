@@ -15,9 +15,9 @@ pub mod EthAccountComponent {
     use crate::utils::secp256_point::Secp256PointStorePacking;
     use crate::utils::{MIN_TRANSACTION_VERSION, QUERY_OFFSET};
     use crate::utils::{execute_calls, is_valid_eth_signature};
-    use openzeppelin_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
-    use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
+    use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
+    use revenantscholar_introspection::src5::SRC5Component;
     use starknet::SyscallResultTrait;
     use starknet::account::Call;
     use starknet::get_caller_address;

@@ -1,7 +1,7 @@
 #[starknet::contract(account)]
 pub mod DualCaseAccountMock {
     use revenantscholar_account::AccountComponent;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
 
     component!(path: AccountComponent, storage: account, event: AccountEvent);
     component!(path: SRC5Component, storage: src5, event: SRC5Event);
@@ -47,7 +47,7 @@ pub mod DualCaseAccountMock {
 #[starknet::contract(account)]
 pub mod SnakeAccountMock {
     use revenantscholar_account::AccountComponent;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
 
     component!(path: AccountComponent, storage: account, event: AccountEvent);
     component!(path: SRC5Component, storage: src5, event: SRC5Event);
@@ -90,7 +90,7 @@ pub mod SnakeAccountMock {
 pub mod DualCaseEthAccountMock {
     use revenantscholar_account::EthAccountComponent;
     use revenantscholar_account::interface::EthPublicKey;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
 
     component!(path: EthAccountComponent, storage: eth_account, event: EthAccountEvent);
     component!(path: SRC5Component, storage: src5, event: SRC5Event);
@@ -134,7 +134,7 @@ pub mod DualCaseEthAccountMock {
 pub mod SnakeEthAccountMock {
     use revenantscholar_account::EthAccountComponent;
     use revenantscholar_account::interface::EthPublicKey;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
 
     component!(path: EthAccountComponent, storage: eth_account, event: EthAccountEvent);
     component!(path: SRC5Component, storage: src5, event: SRC5Event);

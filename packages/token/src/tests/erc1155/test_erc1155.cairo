@@ -3,7 +3,7 @@ use crate::erc1155::ERC1155Component::ERC1155CamelImpl;
 use crate::erc1155::ERC1155Component::{ERC1155Impl, ERC1155MetadataURIImpl, InternalImpl};
 use crate::erc1155::ERC1155Component;
 use crate::erc1155;
-use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
+use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
 use openzeppelin_test_common::erc1155::{
     ERC1155SpyHelpers, get_ids_and_values, get_ids_and_split_values
 };
@@ -87,7 +87,7 @@ fn test_initialize() {
     assert!(supports_ierc1155_metadata_uri);
 
     let supports_isrc5 = mock_state
-        .supports_interface(openzeppelin_introspection::interface::ISRC5_ID);
+        .supports_interface(revenantscholar_introspection::interface::ISRC5_ID);
     assert!(supports_isrc5);
 }
 

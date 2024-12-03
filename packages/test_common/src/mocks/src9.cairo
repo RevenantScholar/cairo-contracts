@@ -2,7 +2,7 @@
 pub mod SRC9AccountMock {
     use revenantscholar_account::AccountComponent;
     use revenantscholar_account::extensions::SRC9Component;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use starknet::storage::StoragePointerWriteAccess;
 
     component!(path: AccountComponent, storage: account, event: AccountEvent);

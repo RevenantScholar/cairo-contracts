@@ -4,8 +4,8 @@ use crate::erc721::extensions::erc721_enumerable::ERC721EnumerableComponent::{
 };
 use crate::erc721::extensions::erc721_enumerable::ERC721EnumerableComponent;
 use crate::erc721::extensions::erc721_enumerable::interface::IERC721ENUMERABLE_ID;
-use openzeppelin_introspection::interface::ISRC5_ID;
-use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
+use revenantscholar_introspection::interface::ISRC5_ID;
+use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
 use openzeppelin_test_common::mocks::erc721::ERC721EnumerableMock;
 use openzeppelin_testing::constants::{OWNER, RECIPIENT, OTHER, ZERO};
 use starknet::ContractAddress;

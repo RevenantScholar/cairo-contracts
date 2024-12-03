@@ -2,7 +2,7 @@ use core::num::traits::Zero;
 use crate::ERC721Upgradeable::InternalImpl;
 use crate::ERC721Upgradeable;
 use crate::interfaces::{ERC721UpgradeableABIDispatcher, ERC721UpgradeableABIDispatcherTrait};
-use openzeppelin_introspection::interface::ISRC5_ID;
+use revenantscholar_introspection::interface::ISRC5_ID;
 use openzeppelin_test_common::erc721::ERC721SpyHelpers;
 use openzeppelin_test_common::ownable::OwnableSpyHelpers;
 use openzeppelin_test_common::upgrades::UpgradeableSpyHelpers;

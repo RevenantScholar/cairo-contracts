@@ -134,7 +134,7 @@ with new external functions (#1173)
   - `revenantscholar_access`
   - `revenantscholar_account`
   - `openzeppelin_governance`
-  - `openzeppelin_introspection`
+  - `revenantscholar_introspection`
   - `openzeppelin_presets`
   - `openzeppelin_security`
   - `revenantscholar_token`

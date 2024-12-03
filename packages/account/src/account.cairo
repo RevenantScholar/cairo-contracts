@@ -12,9 +12,9 @@ pub mod AccountComponent {
     use crate::interface;
     use crate::utils::{MIN_TRANSACTION_VERSION, QUERY_OFFSET};
     use crate::utils::{execute_calls, is_valid_stark_signature};
-    use openzeppelin_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
-    use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
+    use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
+    use revenantscholar_introspection::src5::SRC5Component;
     use starknet::account::Call;
     use starknet::storage::{StoragePointerReadAccess, StoragePointerWriteAccess};
     use starknet::{get_caller_address, get_contract_address, get_tx_info};

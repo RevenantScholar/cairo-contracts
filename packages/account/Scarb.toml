@@ -23,7 +23,7 @@ fmt.workspace = true
 
 [dependencies]
 starknet.workspace = true
-openzeppelin_introspection = { path = "../introspection" }
+revenantscholar_introspection = { path = "../introspection" }
 openzeppelin_utils = { path = "../utils" }
 
 [dev-dependencies]

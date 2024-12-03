@@ -1,6 +1,6 @@
 #[starknet::contract]
 pub mod ERC2981Mock {
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::common::erc2981::{ERC2981Component, DefaultConfig};
     use starknet::ContractAddress;
 
@@ -48,7 +48,7 @@ pub mod ERC2981Mock {
 #[starknet::contract]
 pub mod ERC2981OwnableMock {
     use revenantscholar_access::ownable::OwnableComponent;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::common::erc2981::{ERC2981Component, DefaultConfig};
     use starknet::ContractAddress;
 
@@ -112,7 +112,7 @@ pub mod ERC2981OwnableMock {
 pub mod ERC2981AccessControlMock {
     use AccessControlComponent::InternalTrait;
     use revenantscholar_access::accesscontrol::{AccessControlComponent, DEFAULT_ADMIN_ROLE};
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::common::erc2981::ERC2981Component::ROYALTY_ADMIN_ROLE;
     use revenantscholar_token::common::erc2981::{ERC2981Component, DefaultConfig};
     use starknet::ContractAddress;

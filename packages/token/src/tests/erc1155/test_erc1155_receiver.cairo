@@ -2,8 +2,8 @@ use crate::erc1155::ERC1155ReceiverComponent::{
     ERC1155ReceiverImpl, ERC1155ReceiverCamelImpl, InternalImpl
 };
 use crate::erc1155::interface::IERC1155_RECEIVER_ID;
-use openzeppelin_introspection::interface::ISRC5_ID;
-use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
+use revenantscholar_introspection::interface::ISRC5_ID;
+use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
 use openzeppelin_test_common::mocks::erc1155::DualCaseERC1155ReceiverMock;
 use openzeppelin_testing::constants::{OWNER, OPERATOR, TOKEN_ID, TOKEN_VALUE, EMPTY_DATA};
 

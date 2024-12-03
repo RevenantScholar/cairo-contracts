@@ -9,7 +9,7 @@
 pub(crate) mod EthAccountUpgradeable {
     use revenantscholar_account::EthAccountComponent;
     use revenantscholar_account::interface::EthPublicKey;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use openzeppelin_upgrades::UpgradeableComponent;
     use openzeppelin_upgrades::interface::IUpgradeable;
     use starknet::ClassHash;

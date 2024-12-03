@@ -3,7 +3,7 @@ use crate::erc721::ERC721Component::{ERC721Impl, ERC721CamelOnlyImpl};
 use crate::erc721::ERC721Component::{ERC721MetadataImpl, InternalImpl};
 use crate::erc721::ERC721Component;
 use crate::erc721;
-use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
+use revenantscholar_introspection::src5::SRC5Component::SRC5Impl;
 use openzeppelin_test_common::erc721::ERC721SpyHelpers;
 use openzeppelin_test_common::mocks::erc721::{DualCaseERC721Mock, SnakeERC721MockWithHooks};
 use openzeppelin_testing as utils;
@@ -81,7 +81,7 @@ fn test_initializer() {
     assert!(supports_ierc721_metadata);
 
     let supports_isrc5 = mock_state
-        .supports_interface(openzeppelin_introspection::interface::ISRC5_ID);
+        .supports_interface(revenantscholar_introspection::interface::ISRC5_ID);
     assert!(supports_isrc5);
 }
 

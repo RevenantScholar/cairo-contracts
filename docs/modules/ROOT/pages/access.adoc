@@ -175,7 +175,7 @@ const MINTER_ROLE: felt252 = selector!("MINTER_ROLE");
 #[starknet::contract]
 mod MyContract {
     use revenantscholar_access::accesscontrol::AccessControlComponent;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use starknet::ContractAddress;
     use super::MINTER_ROLE;
@@ -266,7 +266,7 @@ const BURNER_ROLE: felt252 = selector!("BURNER_ROLE");
 #[starknet::contract]
 mod MyContract {
     use revenantscholar_access::accesscontrol::AccessControlComponent;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use starknet::ContractAddress;
     use super::{MINTER_ROLE, BURNER_ROLE};
@@ -389,7 +389,7 @@ const BURNER_ROLE: felt252 = selector!("BURNER_ROLE");
 mod MyContract {
     use revenantscholar_access::accesscontrol::AccessControlComponent;
     use revenantscholar_access::accesscontrol::DEFAULT_ADMIN_ROLE;
-    use openzeppelin_introspection::src5::SRC5Component;
+    use revenantscholar_introspection::src5::SRC5Component;
     use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use starknet::ContractAddress;
     use super::{MINTER_ROLE, BURNER_ROLE};
