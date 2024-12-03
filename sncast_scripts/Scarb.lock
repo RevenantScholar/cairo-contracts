@@ -2,7 +2,7 @@
 version = 1
 
 [[package]]
-name = "openzeppelin_access"
+name = "revenantscholar_access"
 version = "0.19.0"
 dependencies = [
  "openzeppelin_introspection",
@@ -21,7 +21,7 @@ dependencies = [
 name = "openzeppelin_finance"
 version = "0.19.0"
 dependencies = [
- "openzeppelin_access",
+ "revenantscholar_access",
  "revenantscholar_token",
 ]
 
@@ -29,7 +29,7 @@ dependencies = [
 name = "openzeppelin_governance"
 version = "0.19.0"
 dependencies = [
- "openzeppelin_access",
+ "revenantscholar_access",
  "openzeppelin_introspection",
 ]
 
@@ -41,7 +41,7 @@ version = "0.19.0"
 name = "openzeppelin_presets"
 version = "0.19.0"
 dependencies = [
- "openzeppelin_access",
+ "revenantscholar_access",
  "openzeppelin_account",
  "openzeppelin_finance",
  "openzeppelin_introspection",

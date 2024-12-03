@@ -23,7 +23,7 @@ fmt.workspace = true
 
 [dependencies]
 starknet.workspace = true
-openzeppelin_access = { path = "../access" }
+revenantscholar_access = { path = "../access" }
 revenantscholar_token = { path = "../token" }
 
 [dev-dependencies]

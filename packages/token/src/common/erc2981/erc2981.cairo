@@ -22,10 +22,10 @@ pub mod ERC2981Component {
     use core::num::traits::Zero;
     use crate::common::erc2981::interface::IERC2981_ID;
     use crate::common::erc2981::interface;
-    use openzeppelin_access::accesscontrol::AccessControlComponent::InternalTrait as AccessControlInternalTrait;
-    use openzeppelin_access::accesscontrol::AccessControlComponent;
-    use openzeppelin_access::ownable::OwnableComponent::InternalTrait as OwnableInternalTrait;
-    use openzeppelin_access::ownable::OwnableComponent;
+    use revenantscholar_access::accesscontrol::AccessControlComponent::InternalTrait as AccessControlInternalTrait;
+    use revenantscholar_access::accesscontrol::AccessControlComponent;
+    use revenantscholar_access::ownable::OwnableComponent::InternalTrait as OwnableInternalTrait;
+    use revenantscholar_access::ownable::OwnableComponent;
     use openzeppelin_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
     use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
     use openzeppelin_introspection::src5::SRC5Component;

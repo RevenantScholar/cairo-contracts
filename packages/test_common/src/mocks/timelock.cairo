@@ -1,6 +1,6 @@
 #[starknet::contract]
 pub mod TimelockControllerMock {
-    use openzeppelin_access::accesscontrol::AccessControlComponent;
+    use revenantscholar_access::accesscontrol::AccessControlComponent;
     use openzeppelin_governance::timelock::TimelockControllerComponent;
     use openzeppelin_introspection::src5::SRC5Component;
     use starknet::ContractAddress;

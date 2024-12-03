@@ -26,7 +26,7 @@ xref:/api/access.adoc#OwnableComponent-initializer[`initializer`] like this:
 ----
 #[starknet::contract]
 mod MyContract {
-    use openzeppelin_access::ownable::OwnableComponent;
+    use revenantscholar_access::ownable::OwnableComponent;
     use starknet::ContractAddress;
 
     component!(path: OwnableComponent, storage: ownable, event: OwnableEvent);
@@ -174,7 +174,7 @@ const MINTER_ROLE: felt252 = selector!("MINTER_ROLE");
 
 #[starknet::contract]
 mod MyContract {
-    use openzeppelin_access::accesscontrol::AccessControlComponent;
+    use revenantscholar_access::accesscontrol::AccessControlComponent;
     use openzeppelin_introspection::src5::SRC5Component;
     use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use starknet::ContractAddress;
@@ -265,7 +265,7 @@ const BURNER_ROLE: felt252 = selector!("BURNER_ROLE");
 
 #[starknet::contract]
 mod MyContract {
-    use openzeppelin_access::accesscontrol::AccessControlComponent;
+    use revenantscholar_access::accesscontrol::AccessControlComponent;
     use openzeppelin_introspection::src5::SRC5Component;
     use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use starknet::ContractAddress;
@@ -387,8 +387,8 @@ const BURNER_ROLE: felt252 = selector!("BURNER_ROLE");
 
 #[starknet::contract]
 mod MyContract {
-    use openzeppelin_access::accesscontrol::AccessControlComponent;
-    use openzeppelin_access::accesscontrol::DEFAULT_ADMIN_ROLE;
+    use revenantscholar_access::accesscontrol::AccessControlComponent;
+    use revenantscholar_access::accesscontrol::DEFAULT_ADMIN_ROLE;
     use openzeppelin_introspection::src5::SRC5Component;
     use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
     use starknet::ContractAddress;

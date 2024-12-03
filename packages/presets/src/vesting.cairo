@@ -3,7 +3,7 @@
 
 #[starknet::contract]
 pub mod VestingWallet {
-    use openzeppelin_access::ownable::OwnableComponent;
+    use revenantscholar_access::ownable::OwnableComponent;
     use openzeppelin_finance::vesting::{VestingComponent, LinearVestingSchedule};
     use starknet::ContractAddress;
 

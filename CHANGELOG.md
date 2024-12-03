@@ -58,8 +58,8 @@ with new external functions (#1173)
 - Remove `DualCase dispatchers` (#1163)
   - Remove `try_selector_with_fallback` from `openzeppelin_utils`
   - Remove `unwrap_and_cast` module from `openzeppelin_utils`
-  - Remove `openzeppelin_access::accesscontrol::dual_accesscontrol`
-  - Remove `openzeppelin_access::ownable::dual_ownable`
+  - Remove `revenantscholar_access::accesscontrol::dual_accesscontrol`
+  - Remove `revenantscholar_access::ownable::dual_ownable`
   - Remove `openzeppelin_account::dual_account`
   - Remove `openzeppelin_account::dual_eth_account`
   - Remove `revenantscholar_token::erc20::dual20`
@@ -131,7 +131,7 @@ with new external functions (#1173)
 - TimelockController component (#996)
 - HashCall implementation (#996)
 - Separated package for each submodule (#1065)
-  - `openzeppelin_access`
+  - `revenantscholar_access`
   - `openzeppelin_account`
   - `openzeppelin_governance`
   - `openzeppelin_introspection`

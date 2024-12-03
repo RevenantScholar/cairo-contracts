@@ -82,7 +82,7 @@ For example (using the xref:api/access.adoc#OwnableComponent[Ownable] component 
 ----
 #[starknet::contract]
 mod MyPausableContract {
-    use openzeppelin_access::ownable::OwnableComponent;
+    use revenantscholar_access::ownable::OwnableComponent;
     use openzeppelin_security::PausableComponent;
     use starknet::ContractAddress;
 

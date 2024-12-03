@@ -1,7 +1,7 @@
 #[starknet::contract]
 pub mod DualCaseAccessControlMock {
-    use openzeppelin_access::accesscontrol::AccessControlComponent;
-    use openzeppelin_access::accesscontrol::DEFAULT_ADMIN_ROLE;
+    use revenantscholar_access::accesscontrol::AccessControlComponent;
+    use revenantscholar_access::accesscontrol::DEFAULT_ADMIN_ROLE;
     use openzeppelin_introspection::src5::SRC5Component;
     use starknet::ContractAddress;
 
@@ -40,7 +40,7 @@ pub mod DualCaseAccessControlMock {
 
 #[starknet::contract]
 pub mod DualCaseOwnableMock {
-    use openzeppelin_access::ownable::OwnableComponent;
+    use revenantscholar_access::ownable::OwnableComponent;
     use starknet::ContractAddress;
 
     component!(path: OwnableComponent, storage: ownable, event: OwnableEvent);
@@ -70,7 +70,7 @@ pub mod DualCaseOwnableMock {
 
 #[starknet::contract]
 pub mod DualCaseTwoStepOwnableMock {
-    use openzeppelin_access::ownable::OwnableComponent;
+    use revenantscholar_access::ownable::OwnableComponent;
     use starknet::ContractAddress;
 
     component!(path: OwnableComponent, storage: ownable, event: OwnableEvent);

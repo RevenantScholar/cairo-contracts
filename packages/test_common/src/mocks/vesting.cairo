@@ -1,6 +1,6 @@
 #[starknet::contract]
 pub mod LinearVestingMock {
-    use openzeppelin_access::ownable::OwnableComponent;
+    use revenantscholar_access::ownable::OwnableComponent;
     use openzeppelin_finance::vesting::{VestingComponent, LinearVestingSchedule};
     use starknet::ContractAddress;
 
@@ -49,7 +49,7 @@ pub mod LinearVestingMock {
 
 #[starknet::contract]
 pub mod StepsVestingMock {
-    use openzeppelin_access::ownable::OwnableComponent;
+    use revenantscholar_access::ownable::OwnableComponent;
     use openzeppelin_finance::vesting::VestingComponent::VestingScheduleTrait;
     use openzeppelin_finance::vesting::VestingComponent;
     use starknet::ContractAddress;

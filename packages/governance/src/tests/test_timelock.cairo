@@ -10,12 +10,12 @@ use crate::timelock::TimelockControllerComponent::{
 use crate::timelock::TimelockControllerComponent;
 use crate::timelock::interface::{TimelockABIDispatcher, TimelockABIDispatcherTrait};
 use crate::timelock::{PROPOSER_ROLE, EXECUTOR_ROLE, CANCELLER_ROLE};
-use openzeppelin_access::accesscontrol::AccessControlComponent::{
+use revenantscholar_access::accesscontrol::AccessControlComponent::{
     AccessControlImpl, InternalImpl as AccessControlInternalImpl
 };
-use openzeppelin_access::accesscontrol::DEFAULT_ADMIN_ROLE;
-use openzeppelin_access::accesscontrol::interface::IACCESSCONTROL_ID;
-use openzeppelin_access::accesscontrol::interface::IAccessControl;
+use revenantscholar_access::accesscontrol::DEFAULT_ADMIN_ROLE;
+use revenantscholar_access::accesscontrol::interface::IACCESSCONTROL_ID;
+use revenantscholar_access::accesscontrol::interface::IAccessControl;
 use openzeppelin_introspection::interface::ISRC5_ID;
 use openzeppelin_introspection::src5::SRC5Component::SRC5Impl;
 use openzeppelin_test_common::mocks::timelock::ITimelockAttackerDispatcher;

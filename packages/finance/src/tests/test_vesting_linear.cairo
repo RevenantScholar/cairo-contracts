@@ -2,7 +2,7 @@ use crate::tests::common::{VestingStrategy, TestData, setup, set_transfer_to_fai
 use crate::vesting::VestingComponent::InternalImpl;
 use crate::vesting::VestingComponent;
 use crate::vesting::interface::IVestingDispatcherTrait;
-use openzeppelin_access::ownable::interface::{IOwnableDispatcher, IOwnableDispatcherTrait};
+use revenantscholar_access::ownable::interface::{IOwnableDispatcher, IOwnableDispatcherTrait};
 use openzeppelin_test_common::mocks::vesting::LinearVestingMock;
 use openzeppelin_test_common::vesting::VestingSpyHelpers;
 use openzeppelin_testing::constants::{OWNER, OTHER};
