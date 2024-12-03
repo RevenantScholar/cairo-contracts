@@ -18,7 +18,7 @@ use openzeppelin_testing::constants::{
     SALT, ZERO, OTHER, CALLER, QUERY_VERSION, MIN_TRANSACTION_VERSION
 };
 use openzeppelin_testing::signing::Secp256k1KeyPair;
-use openzeppelin_utils::serde::SerializedAppend;
+use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{
     start_cheat_signature_global, start_cheat_transaction_version_global,
     start_cheat_transaction_hash_global, start_cheat_caller_address

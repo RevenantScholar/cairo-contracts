@@ -19,7 +19,7 @@ use revenantscholar_token::erc721::interface::{
 };
 use revenantscholar_token::erc721::interface::{IERC721Dispatcher, IERC721DispatcherTrait};
 use revenantscholar_token::erc721::interface::{IERC721_ID, IERC721_METADATA_ID};
-use openzeppelin_utils::serde::SerializedAppend;
+use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{spy_events, EventSpy, start_cheat_caller_address};
 use starknet::{ContractAddress, ClassHash};
 

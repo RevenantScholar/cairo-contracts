@@ -52,12 +52,12 @@ with new external functions (#1173)
 - Remove `ERC20Votes` component in favor of `VotesComponent` (#1114)
   - `Trace` is now declared as a `storage_node` and now uses `Vec` instead of `StorageArray`.
   - `delegate_by_sig` `signature` param in the `IVotes` interface updated from `Array<felt252>` to `Span<felt252>`.
-- Remove `StorageArray` from `openzeppelin_utils` (#1114)
+- Remove `StorageArray` from `revenantscholar_utils` (#1114)
 - Bump snforge to 0.31.0
-- Remove openzeppelin_utils::selectors (#1163)
+- Remove revenantscholar_utils::selectors (#1163)
 - Remove `DualCase dispatchers` (#1163)
-  - Remove `try_selector_with_fallback` from `openzeppelin_utils`
-  - Remove `unwrap_and_cast` module from `openzeppelin_utils`
+  - Remove `try_selector_with_fallback` from `revenantscholar_utils`
+  - Remove `unwrap_and_cast` module from `revenantscholar_utils`
   - Remove `revenantscholar_access::accesscontrol::dual_accesscontrol`
   - Remove `revenantscholar_access::ownable::dual_ownable`
   - Remove `revenantscholar_account::dual_account`
@@ -139,7 +139,7 @@ with new external functions (#1173)
   - `openzeppelin_security`
   - `revenantscholar_token`
   - `openzeppelin_upgrades`
-  - `openzeppelin_utils`
+  - `revenantscholar_utils`
 - Separated packages intended as [dev-dependencies] (#1084)
   - `openzeppelin_testing`
   - `openzeppelin_test_common`

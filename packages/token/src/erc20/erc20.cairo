@@ -16,12 +16,12 @@ pub mod ERC20Component {
     use crate::erc20::interface;
     use crate::erc20::snip12_utils::permit::Permit;
     use revenantscholar_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
-    use openzeppelin_utils::cryptography::interface::{INonces, ISNIP12Metadata};
-    use openzeppelin_utils::cryptography::snip12::{
+    use revenantscholar_utils::cryptography::interface::{INonces, ISNIP12Metadata};
+    use revenantscholar_utils::cryptography::snip12::{
         StructHash, OffchainMessageHash, SNIP12Metadata, StarknetDomain
     };
-    use openzeppelin_utils::nonces::NoncesComponent::InternalTrait as NoncesInternalTrait;
-    use openzeppelin_utils::nonces::NoncesComponent;
+    use revenantscholar_utils::nonces::NoncesComponent::InternalTrait as NoncesInternalTrait;
+    use revenantscholar_utils::nonces::NoncesComponent;
     use starknet::ContractAddress;
     use starknet::storage::{Map, StorageMapReadAccess, StorageMapWriteAccess};
     use starknet::storage::{StoragePointerReadAccess, StoragePointerWriteAccess};

@@ -4,7 +4,7 @@ use openzeppelin_testing::events::EventSpyExt;
 use revenantscholar_token::erc20::ERC20Component::{Approval, Transfer};
 use revenantscholar_token::erc20::ERC20Component;
 use revenantscholar_token::erc20::interface::{IERC20Dispatcher};
-use openzeppelin_utils::serde::SerializedAppend;
+use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::EventSpy;
 use starknet::ContractAddress;
 

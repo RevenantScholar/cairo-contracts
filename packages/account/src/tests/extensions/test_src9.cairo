@@ -7,7 +7,7 @@ use revenantscholar_introspection::interface::{ISRC5, ISRC5_ID};
 use openzeppelin_test_common::mocks::src9::SRC9AccountMock;
 use openzeppelin_testing as utils;
 use openzeppelin_testing::constants::{RECIPIENT, OWNER, OTHER, FELT_VALUE};
-use openzeppelin_utils::cryptography::snip12::OffchainMessageHash;
+use revenantscholar_utils::cryptography::snip12::OffchainMessageHash;
 use snforge_std::signature::KeyPairTrait;
 use snforge_std::signature::stark_curve::{StarkCurveKeyPairImpl, StarkCurveSignerImpl};
 use snforge_std::{

@@ -7,7 +7,7 @@ use openzeppelin_test_common::vesting::VestingSpyHelpers;
 use openzeppelin_testing as utils;
 use openzeppelin_testing::constants::{OWNER, OTHER, ZERO};
 use revenantscholar_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
-use openzeppelin_utils::serde::SerializedAppend;
+use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{spy_events, start_cheat_caller_address, start_cheat_block_timestamp_global};
 use starknet::ContractAddress;
 

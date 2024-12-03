@@ -18,7 +18,7 @@ use revenantscholar_token::erc1155::interface::{
 };
 use revenantscholar_token::erc1155::interface::{IERC1155Dispatcher, IERC1155DispatcherTrait};
 use revenantscholar_token::erc1155;
-use openzeppelin_utils::serde::SerializedAppend;
+use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{spy_events, EventSpy, start_cheat_caller_address};
 use starknet::{ContractAddress, ClassHash};
 

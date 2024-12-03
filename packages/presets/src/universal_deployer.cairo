@@ -8,7 +8,7 @@
 pub mod UniversalDeployer {
     use core::hash::{HashStateTrait, HashStateExTrait};
     use core::poseidon::PoseidonTrait;
-    use openzeppelin_utils::interfaces::IUniversalDeployer;
+    use revenantscholar_utils::interfaces::IUniversalDeployer;
     use starknet::ClassHash;
     use starknet::ContractAddress;
     use starknet::SyscallResultTrait;

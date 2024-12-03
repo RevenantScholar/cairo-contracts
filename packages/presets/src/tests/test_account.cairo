@@ -19,7 +19,7 @@ use openzeppelin_testing::constants::{
 };
 use openzeppelin_testing::signing::StarkKeyPair;
 use revenantscholar_token::erc20::interface::IERC20DispatcherTrait;
-use openzeppelin_utils::serde::SerializedAppend;
+use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{
     start_cheat_signature_global, start_cheat_transaction_version_global,
     start_cheat_transaction_hash_global

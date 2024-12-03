@@ -26,7 +26,7 @@ use openzeppelin_test_common::mocks::timelock::{
 use openzeppelin_testing as utils;
 use openzeppelin_testing::constants::{ADMIN, ZERO, OTHER, SALT, FELT_VALUE as VALUE};
 use openzeppelin_testing::events::EventSpyExt;
-use openzeppelin_utils::serde::SerializedAppend;
+use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::EventSpy;
 use snforge_std::{
     spy_events, test_address, start_cheat_caller_address, cheat_caller_address,

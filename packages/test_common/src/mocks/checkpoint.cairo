@@ -8,7 +8,7 @@ pub trait IMockTrace<TContractState> {
 
 #[starknet::contract]
 pub mod MockTrace {
-    use openzeppelin_utils::structs::checkpoint::{Trace, TraceTrait};
+    use revenantscholar_utils::structs::checkpoint::{Trace, TraceTrait};
 
     #[storage]
     struct Storage {

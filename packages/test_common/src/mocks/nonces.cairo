@@ -1,6 +1,6 @@
 #[starknet::contract]
 pub mod NoncesMock {
-    use openzeppelin_utils::cryptography::nonces::NoncesComponent;
+    use revenantscholar_utils::cryptography::nonces::NoncesComponent;
 
     component!(path: NoncesComponent, storage: nonces, event: NoncesEvent);
 

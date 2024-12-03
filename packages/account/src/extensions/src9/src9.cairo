@@ -17,7 +17,7 @@ pub mod SRC9Component {
     use revenantscholar_account::interface::{ISRC6Dispatcher, ISRC6DispatcherTrait};
     use revenantscholar_introspection::src5::SRC5Component::InternalTrait as SRC5InternalTrait;
     use revenantscholar_introspection::src5::SRC5Component;
-    use openzeppelin_utils::cryptography::snip12::{OffchainMessageHash, SNIP12Metadata};
+    use revenantscholar_utils::cryptography::snip12::{OffchainMessageHash, SNIP12Metadata};
     use starknet::storage::{Map, StorageMapReadAccess, StorageMapWriteAccess};
 
     #[storage]

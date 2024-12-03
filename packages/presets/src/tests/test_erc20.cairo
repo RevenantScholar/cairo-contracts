@@ -14,7 +14,7 @@ use openzeppelin_testing::constants::{
 };
 use openzeppelin_testing::events::EventSpyExt;
 use revenantscholar_token::erc20::interface::{IERC20Dispatcher, IERC20DispatcherTrait};
-use openzeppelin_utils::serde::SerializedAppend;
+use revenantscholar_utils::serde::SerializedAppend;
 use snforge_std::{spy_events, EventSpy, start_cheat_caller_address};
 use starknet::ClassHash;
 

@@ -1,6 +1,6 @@
 
 [package]
-name = "openzeppelin_utils"
+name = "revenantscholar_utils"
 readme = "README.md"
 keywords = [
     "openzeppelin",

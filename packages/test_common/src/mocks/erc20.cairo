@@ -162,8 +162,8 @@ pub mod SnakeERC20MockWithHooks {
 #[starknet::contract]
 pub mod DualCaseERC20PermitMock {
     use revenantscholar_token::erc20::{ERC20Component, ERC20HooksEmptyImpl};
-    use openzeppelin_utils::cryptography::nonces::NoncesComponent;
-    use openzeppelin_utils::cryptography::snip12::SNIP12Metadata;
+    use revenantscholar_utils::cryptography::nonces::NoncesComponent;
+    use revenantscholar_utils::cryptography::snip12::SNIP12Metadata;
     use starknet::ContractAddress;
 
     component!(path: ERC20Component, storage: erc20, event: ERC20Event);

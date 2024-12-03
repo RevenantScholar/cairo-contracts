@@ -56,7 +56,7 @@ openzeppelin_presets = { path = "packages/presets" }
 openzeppelin_security = { path = "packages/security" }
 revenantscholar_token = { path = "packages/token" }
 openzeppelin_upgrades = { path = "packages/upgrades" }
-openzeppelin_utils = { path = "packages/utils" }
+revenantscholar_utils = { path = "packages/utils" }
 
 [dev-dependencies]
 snforge_std.workspace = true

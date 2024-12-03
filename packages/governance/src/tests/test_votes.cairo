@@ -16,8 +16,8 @@ use revenantscholar_token::erc721::ERC721Component::{
 };
 use revenantscholar_token::erc721::ERC721Component::{ERC721Impl, ERC721CamelOnlyImpl};
 use revenantscholar_token::erc721::interface::IERC721;
-use openzeppelin_utils::cryptography::snip12::OffchainMessageHash;
-use openzeppelin_utils::structs::checkpoint::TraceTrait;
+use revenantscholar_utils::cryptography::snip12::OffchainMessageHash;
+use revenantscholar_utils::structs::checkpoint::TraceTrait;
 use snforge_std::signature::stark_curve::{StarkCurveKeyPairImpl, StarkCurveSignerImpl};
 use snforge_std::{
     start_cheat_block_timestamp_global, start_cheat_caller_address, spy_events, test_address,

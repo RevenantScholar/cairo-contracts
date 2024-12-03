@@ -26,7 +26,7 @@ revenantscholar_introspection = { path = "../introspection" }
 openzeppelin_security = { path = "../security" }
 revenantscholar_token = { path = "../token" }
 openzeppelin_testing = { path = "../testing" }
-openzeppelin_utils = { path = "../utils" }
+revenantscholar_utils = { path = "../utils" }
 openzeppelin_governance = { path = "../governance" }
 
 [lib]

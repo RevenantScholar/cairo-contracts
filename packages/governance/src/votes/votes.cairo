@@ -35,10 +35,10 @@ pub mod VotesComponent {
     use revenantscholar_token::erc20::interface::IERC20;
     use revenantscholar_token::erc721::ERC721Component;
     use revenantscholar_token::erc721::interface::IERC721;
-    use openzeppelin_utils::cryptography::snip12::{OffchainMessageHash, SNIP12Metadata};
-    use openzeppelin_utils::nonces::NoncesComponent::InternalTrait as NoncesInternalTrait;
-    use openzeppelin_utils::nonces::NoncesComponent;
-    use openzeppelin_utils::structs::checkpoint::{Checkpoint, Trace, TraceTrait};
+    use revenantscholar_utils::cryptography::snip12::{OffchainMessageHash, SNIP12Metadata};
+    use revenantscholar_utils::nonces::NoncesComponent::InternalTrait as NoncesInternalTrait;
+    use revenantscholar_utils::nonces::NoncesComponent;
+    use revenantscholar_utils::structs::checkpoint::{Checkpoint, Trace, TraceTrait};
     use starknet::storage::{Map, StoragePathEntry, StorageMapReadAccess, StorageMapWriteAccess};
     use super::{VotingUnitsTrait, ContractAddress};
 

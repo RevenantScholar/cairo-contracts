@@ -3,7 +3,7 @@
 
 use core::hash::{HashStateTrait, HashStateExTrait};
 use core::poseidon::PoseidonTrait;
-use openzeppelin_utils::cryptography::snip12::{StructHash};
+use revenantscholar_utils::cryptography::snip12::{StructHash};
 use starknet::ContractAddress;
 
 // sn_keccak("\"Delegation\"(\"delegatee\":\"ContractAddress\",\"nonce\":\"felt\",\"expiry\":\"u128\")")

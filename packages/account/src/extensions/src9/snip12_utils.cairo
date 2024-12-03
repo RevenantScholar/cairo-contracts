@@ -4,7 +4,7 @@
 use core::hash::{HashStateTrait, HashStateExTrait};
 use core::poseidon::{PoseidonTrait, poseidon_hash_span};
 use crate::extensions::src9::OutsideExecution;
-use openzeppelin_utils::cryptography::snip12::StructHash;
+use revenantscholar_utils::cryptography::snip12::StructHash;
 use starknet::account::Call;
 
 // sn_keccak(

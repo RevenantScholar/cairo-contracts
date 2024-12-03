@@ -8,4 +8,4 @@ pub use openzeppelin_presets as presets;
 pub use openzeppelin_security as security;
 pub use revenantscholar_token as token;
 pub use openzeppelin_upgrades as upgrades;
-pub use openzeppelin_utils as utils;
+pub use revenantscholar_utils as utils;
